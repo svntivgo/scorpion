@@ -1,0 +1,110 @@
+.home__slider {
+  animation-delay: 7s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-name: fullscreen;
+  height: 60vh;
+  left: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+
+  .home__slide {
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-name: slide;
+    height: 60vh;
+    position: relative;
+    transform: translate(0px, 60vh);
+    width: 60vw;
+
+    &.uno {
+      animation-delay: 1s;
+      background: steelblue;
+    }
+
+    &.dos {
+      animation-delay: 2.5s;
+      background: midnightblue;
+    }
+
+    &.tres {
+      animation-delay: 4s;
+      background: indigo;
+    }
+
+    &.cuatro {
+      animation: slide 1.5s 5.5s forwards, fullscreen 0s 0s forwards;
+      background: purple;
+      color: aliceblue;
+      h3 {
+        text-align: center;
+        color: transparent;
+        animation: tarjetas 5s 9s forwards;
+      }
+      h2 {
+        padding-top: 25vh;
+        text-align: center;
+      }
+      h1 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      .home__contenedor-tarjetas {
+        display: flex;
+        justify-content: center;
+        margin: 50px auto;
+
+        .home__tarjeta {
+          width: 200px;
+          color: transparent;
+          animation: tarjetas 5s 9s forwards;
+
+          &.info {
+            max-width: 180px;
+            margin: 0 10px;
+            p {
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(0px, 60vh);
+  }
+  99% {
+    position: relative;
+    transform: translate(0px, 0px);
+  }
+  100% {
+    position: absolute;
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes fullscreen {
+  from {
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@keyframes tarjetas {
+  from {
+  }
+  to {
+    color: aliceblue;
+  }
+}
