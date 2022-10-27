@@ -1,0 +1,18 @@
+.acerca {
+  display: flex;
+  padding: 50px 10vw;
+  .acerca__registro {
+    p {
+      width: 200px;
+      background-color: gray;
+      color: aliceblue;
+      padding: 10px 25px;
+    }
+  }
+  .acerca__texto {
+    padding-left: 10vw;
+    p {
+      font-size: 48px;
+    }
+  }
+}

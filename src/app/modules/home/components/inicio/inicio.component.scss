@@ -1,75 +1,83 @@
-.home__slider {
-  animation-delay: 7s;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-  animation-name: fullscreen;
-  height: 60vh;
-  left: 50%;
-  margin: 0 auto;
-  overflow: hidden;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 60vw;
-
-  .home__slide {
-    animation-duration: 1.5s;
+.inicio {
+  width: 100%;
+  height: 100vh;
+  .inicio__slider {
+    animation-delay: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-name: slide;
+    animation-name: fullscreen;
     height: 60vh;
-    position: relative;
-    transform: translate(0px, 60vh);
+    left: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 60vw;
 
-    &.uno {
-      animation-delay: 1s;
-      background: steelblue;
-    }
+    .inicio__slide {
+      animation-duration: 1.5s;
+      animation-fill-mode: forwards;
+      animation-name: slide;
+      height: 60vh;
+      position: relative;
+      transform: translate(0px, 60vh);
+      width: 60vw;
 
-    &.dos {
-      animation-delay: 2.5s;
-      background: midnightblue;
-    }
+      &.uno {
+        animation-delay: 1s;
+        background: url(../../../../../assets/img/ES_Urbana\_III_Real_Views-01.jpg);
+        background-size: cover;
+      }
 
-    &.tres {
-      animation-delay: 4s;
-      background: indigo;
-    }
+      &.dos {
+        animation-delay: 2.5s;
+        background: url(../../../../../assets/img/HILLS_PARK_DHE_03.jpg);
+        background-size: cover;
+      }
 
-    &.cuatro {
-      animation: slide 1.5s 5.5s forwards, fullscreen 0s 0s forwards;
-      background: purple;
-      color: aliceblue;
-      h3 {
-        text-align: center;
-        color: transparent;
-        animation: tarjetas 5s 9s forwards;
+      &.tres {
+        animation-delay: 4s;
+        background: url(../../../../../assets/img/ORANIA_THE_VALLEY_EMAAR_04.jpg);
+        background-size: cover;
       }
-      h2 {
-        padding-top: 25vh;
-        text-align: center;
-      }
-      h1 {
-        text-align: center;
-      }
-      p {
-        text-align: center;
-      }
-      .home__contenedor-tarjetas {
-        display: flex;
-        justify-content: center;
-        margin: 50px auto;
 
-        .home__tarjeta {
-          width: 200px;
+      &.cuatro {
+        animation: slide 1.5s 5.5s forwards, fullscreen 0s 0s forwards;
+        background: url(../../../../../assets/img/RAYA_RENDERS_ARTWORK2.jpg);
+        background-size: cover;
+        color: aliceblue;
+        h3 {
+          text-align: center;
           color: transparent;
           animation: tarjetas 5s 9s forwards;
+        }
+        h2 {
+          padding-top: 25vh;
+          text-align: center;
+        }
+        h1 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+        .inicio__contenedor-tarjetas {
+          display: flex;
+          justify-content: center;
+          margin: 50px auto;
 
-          &.info {
-            max-width: 180px;
-            margin: 0 10px;
-            p {
-              text-align: left;
+          .inicio__tarjeta {
+            width: 200px;
+            color: transparent;
+            animation: tarjetas 5s 9s forwards;
+
+            &.info {
+              max-width: 180px;
+              margin: 0 10px;
+              p {
+                text-align: left;
+              }
             }
           }
         }

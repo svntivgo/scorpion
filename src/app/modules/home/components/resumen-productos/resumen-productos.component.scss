@@ -1,0 +1,30 @@
+.resumen-productos {
+  padding-top: 100px;
+  h2 {
+    text-align: center;
+    font-size: 48px;
+  }
+  .resumen-productos__contenedor {
+    padding: 50px 10vw;
+    .resumen-productos__tarjeta {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 40px 0;
+      img {
+        width: 35vw;
+      }
+      .resumen-productos__tarjeta-texto {
+        width: 35vw;
+      }
+      &.raya,&.orania {
+        .resumen-productos__tarjeta-texto {
+          text-align: right;
+        }
+      }
+      &.urbana,&.hills {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}
