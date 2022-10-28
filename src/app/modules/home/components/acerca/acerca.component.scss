@@ -3,7 +3,7 @@
 .acerca {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 50px 0;
   .acerca__contenedor-tarjetas {
     display: flex;
@@ -18,61 +18,99 @@
         border: none;
       }
       & h6 {
-        display: inline-block;
-        margin: 0 25px;
+        display: block;
+        margin: 0 2rem;
         color: $dorado;
-        font-size: 28px;
-        letter-spacing: 5px;
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
       }
       & p {
         display: inline-block;
-        margin: 0 25px;
+        margin: 0 2rem;
         color: $azul;
-        font-size: 16px;
-        letter-spacing: 3px;
+        font-size: 1rem;
       }
     }
   }
   .acerca__registro {
-    width: 20vw;
+    width: 15vw;
     h3 {
       color: $azul;
+      margin-bottom: 25px;
     }
     form {
       width: 100%;
       border: 1.5px solid $dorado;
       border-radius: 30px 0 30px 0;
-      padding: 30px 20px;
+      padding: 30px 10%;
       label {
+        display: block;
         color: $dorado;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 5px;
       }
       input {
+        width: 100%;
         height: 25px;
         border: 1.5px solid $dorado;
         border-radius: 15px;
         margin-bottom: 20px;
+        padding-left: 15px;
+        color: $dorado;
+        font-family: Poppins;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+        &:focus {
+          outline: 1.5px solid $dorado;
+        }
+      }
+      .acerca__campo-telefono {
+        display: flex;
+        width: 100%;
+        #indicativo {
+          width: 55px;
+          border-radius: 15px 0 0 15px;
+          border-right: none;
+        }
+        #telefono {
+          width: 100%;
+          border-radius: 0 15px 15px 0;
+        }
       }
       button {
         display: block;
         border: unset;
         background: $dorado;
         color: $crema;
-        padding: 5px 15px;
+        padding: 5px 25px;
         border-radius: 30px;
         margin-right: 0;
         margin-left: auto;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
       }
     }
   }
   .acerca__texto {
     width: 60vw;
+    img {
+      width: 300px;
+    }
     h2 {
-      font-size: 48px;
+      font-size: 3rem;
       color: $azul;
     }
     p {
-      color: $azul;
-      font-size: 36px;
+      color: $gris;
+      font-size: 1.8rem;
+      strong {
+        color: $azul;
+      }
+      &:last-child {
+        margin-top: 1.8rem;
+        color: $azul;
+      }
     }
   }
 }
