@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 610.51 129.94">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #85754e;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        letter-spacing: .14em;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #f5f1e5;
+      }
+
+      .cls-4, .cls-5, .cls-8 {
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-4, .cls-8 {
+        font-size: 15.51px;
+      }
+
+      .cls-10 {
+        letter-spacing: .22em;
+      }
+
+      .cls-5 {
+        font-size: 15.51px;
+        letter-spacing: .36em;
+      }
+
+      .cls-11 {
+        fill: #85754e;
+      }
+
+      .cls-6 {
+        letter-spacing: .38em;
+      }
+
+      .cls-6, .cls-7, .cls-9 {
+        font-family: APOLLO-Regular, APOLLO;
+      }
+
+      .cls-6, .cls-9 {
+        font-size: 24.1px;
+      }
+
+      .cls-12 {
+        letter-spacing: .38em;
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-7 {
+        font-size: 51.64px;
+        letter-spacing: .14em;
+      }
+
+      .cls-8 {
+        letter-spacing: .36em;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="-410.74" width="377.42" height="324.79"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path class="cls-2" d="M-81.37-271.16H-402.36s0,559.28,0,559.28C-215.19,242.37-79.58,79.86-79.58-121.41l-1.79-149.76Z"/>
+    </clipPath>
+  </defs>
+  <g class="cls-13">
+    <g class="cls-3">
+      <g>
+        <rect class="cls-1" x="124.78" y="-125.83" width="209.67" height="622.64" transform="translate(44.13 415.11) rotate(-90)"/>
+        <line class="cls-1" x1="440.78" y1="81.31" x2="541.63" y2="-18.2"/>
+        <line class="cls-1" x1="230.75" y1="81.21" x2="438.13" y2="-123.42"/>
+        <line class="cls-1" x1="23.92" y1="80.66" x2="230.75" y2="-123.42"/>
+        <polyline class="cls-1" points="125.93 290.32 -81.7 80.66 125.93 -123.42 -83.43 -333.09"/>
+        <line class="cls-1" x1="333.32" y1="294.43" x2="333.32" y2="-123.42"/>
+        <line class="cls-1" x1="125.93" y1="290.32" x2="125.93" y2="-123.42"/>
+        <polyline class="cls-1" points="333.56 290.32 125.93 80.66 333.56 -123.42 124.2 -333.09"/>
+        <polyline class="cls-1" points="540.94 290.32 333.3 80.65 540.94 -123.42 331.57 -333.09"/>
+        <line class="cls-1" x1="540.94" y1="117.3" x2="540.94" y2="-208.2"/>
+      </g>
+    </g>
+  </g>
+  <path class="cls-11" d="M72.02,0H610.51V44.11c0,47.37-38.46,85.84-85.84,85.84H0v-57.93C0,32.27,32.27,0,72.02,0Z"/>
+  <g>
+    <g>
+      <text class="cls-8" transform="translate(66.83 111.24)"><tspan x="0" y="0">Nov-Hotel Hyaat</tspan></text>
+      <text class="cls-9" transform="translate(71.5 42.55)"><tspan class="cls-12" x="0" y="0">BOG</tspan><tspan class="cls-10" x="76.47" y="0">O</tspan><tspan class="cls-12" x="100.14" y="0">TÁ</tspan></text>
+      <text class="cls-7" transform="translate(64.17 88.8)"><tspan x="0" y="0">28-29</tspan></text>
+    </g>
+    <g>
+      <text class="cls-4" transform="translate(320.54 111.24)"><tspan x="0" y="0">HOTEL INTERCONTINENTAL</tspan></text>
+      <text class="cls-6" transform="translate(325.21 42.55)"><tspan x="0" y="0">MEDELLÍN</tspan></text>
+      <text class="cls-7" transform="translate(317.88 88.8)"><tspan x="0" y="0">30 -01</tspan></text>
+    </g>
+    <text class="cls-5" transform="translate(389.42 90.07) rotate(-90)"><tspan x="0" y="0">Nov</tspan></text>
+    <text class="cls-5" transform="translate(494.77 90.07) rotate(-90)"><tspan x="0" y="0">DIC</tspan></text>
+  </g>
+</svg>

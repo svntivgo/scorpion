@@ -1,18 +1,78 @@
+@import "../../../../styles/variables";
+
 .acerca {
   display: flex;
-  padding: 50px 10vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px 0;
+  .acerca__contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+    .acerca__tarjeta {
+      border-right: 1px solid $dorado;
+      width: fit-content;
+      max-width: 20vw;
+      &:last-child {
+        border: none;
+      }
+      & h6 {
+        display: inline-block;
+        margin: 0 25px;
+        color: $dorado;
+        font-size: 28px;
+        letter-spacing: 5px;
+      }
+      & p {
+        display: inline-block;
+        margin: 0 25px;
+        color: $azul;
+        font-size: 16px;
+        letter-spacing: 3px;
+      }
+    }
+  }
   .acerca__registro {
-    p {
-      width: 200px;
-      background-color: gray;
-      color: aliceblue;
-      padding: 10px 25px;
+    width: 20vw;
+    h3 {
+      color: $azul;
+    }
+    form {
+      width: 100%;
+      border: 1.5px solid $dorado;
+      border-radius: 30px 0 30px 0;
+      padding: 30px 20px;
+      label {
+        color: $dorado;
+      }
+      input {
+        height: 25px;
+        border: 1.5px solid $dorado;
+        border-radius: 15px;
+        margin-bottom: 20px;
+      }
+      button {
+        display: block;
+        border: unset;
+        background: $dorado;
+        color: $crema;
+        padding: 5px 15px;
+        border-radius: 30px;
+        margin-right: 0;
+        margin-left: auto;
+      }
     }
   }
   .acerca__texto {
-    padding-left: 10vw;
-    p {
+    width: 60vw;
+    h2 {
       font-size: 48px;
+      color: $azul;
+    }
+    p {
+      color: $azul;
+      font-size: 36px;
     }
   }
 }

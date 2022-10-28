@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 308.59 327.2">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #85754e;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="-8.38" y="2.41" width="377.42" height="324.79"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path class="cls-3" d="M320.99-268.75H0S0,290.52,0,290.52C187.18,244.78,322.79,82.27,322.78-119l-1.79-149.76Z"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" x="-93.14" y="-121.06" width="413.8" height="413.8" transform="translate(27.92 199.6) rotate(-90)"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <g class="cls-5">
+      <g>
+        <rect class="cls-2" x="-93.14" y="-121.06" width="413.8" height="413.8" transform="translate(27.92 199.6) rotate(-90)"/>
+        <g>
+          <g class="cls-4">
+            <g>
+              <circle class="cls-1" cx="-93.14" cy="-121.06" r="413.8" transform="translate(58.32 -101.31) rotate(-45)"/>
+              <circle class="cls-1" cx="-93.14" cy="-121.06" r="343.91" transform="translate(58.32 -101.31) rotate(-45)"/>
+              <circle class="cls-1" cx="-93.14" cy="-121.06" r="275.19" transform="translate(58.32 -101.31) rotate(-45)"/>
+              <circle class="cls-1" cx="-93.14" cy="-121.06" r="206.4" transform="translate(58.32 -101.31) rotate(-45)"/>
+              <circle class="cls-1" cx="-93.14" cy="-121.06" r="138.81" transform="translate(58.32 -101.31) rotate(-45)"/>
+            </g>
+          </g>
+          <rect class="cls-2" x="-93.14" y="-121.06" width="413.8" height="413.8" transform="translate(27.92 199.6) rotate(-90)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

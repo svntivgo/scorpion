@@ -1,6 +1,7 @@
 .inicio {
   width: 100%;
   height: 100vh;
+  background: #010101;
   .inicio__slider {
     animation-delay: 7s;
     animation-duration: 3s;
@@ -26,44 +27,67 @@
 
       &.uno {
         animation-delay: 1s;
-        background: url(../../../../../assets/img/ES_Urbana\_III_Real_Views-01.jpg);
+        background: #7C7474;
         background-size: cover;
       }
 
       &.dos {
         animation-delay: 2.5s;
-        background: url(../../../../../assets/img/HILLS_PARK_DHE_03.jpg);
+        background: #A39E8F;
         background-size: cover;
       }
 
       &.tres {
         animation-delay: 4s;
-        background: url(../../../../../assets/img/ORANIA_THE_VALLEY_EMAAR_04.jpg);
+        background: #897E5E;
         background-size: cover;
       }
 
       &.cuatro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         animation: slide 1.5s 5.5s forwards, fullscreen 0s 0s forwards;
-        background: url(../../../../../assets/img/RAYA_RENDERS_ARTWORK2.jpg);
+        background: url(../../../../../assets/img/banner.jpg);
         background-size: cover;
-        color: aliceblue;
-        h3 {
-          text-align: center;
-          color: transparent;
-          animation: tarjetas 5s 9s forwards;
-        }
-        h2 {
-          padding-top: 25vh;
-          text-align: center;
-        }
-        h1 {
-          text-align: center;
+        color: #25344F;
+        img {
+          &.inicio__ondas-doradas {
+            width: 15vw;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+          &.inicio__ondas-azules {
+            width: 10vw;
+            position: absolute;
+            top: 100px;
+            right: 0;
+          }
+          &.inicio__logo {
+            width: 25vw;
+            position: relative;
+            top: 10vh;
+            right: 25vw;
+          }
+          &.inicio__flechas {
+            width: 10vw;
+            position: absolute;
+            bottom: 50px;
+            right: -1vw;
+          }
+          &.inicio__fechas {
+            width: 25vw;
+            position: absolute;
+            bottom: 0;
+            right: 7vw;
+          }
         }
         p {
           text-align: center;
         }
         .inicio__contenedor-tarjetas {
-          display: flex;
+          display: none;
           justify-content: center;
           margin: 50px auto;
 
@@ -75,6 +99,10 @@
             &.info {
               max-width: 180px;
               margin: 0 10px;
+              border-left: 1px #897E5E solid;
+              &:first-child {
+                border-left: 0px;
+              }
               p {
                 text-align: left;
               }
@@ -113,6 +141,6 @@
   from {
   }
   to {
-    color: aliceblue;
+    color: #25344F;
   }
 }

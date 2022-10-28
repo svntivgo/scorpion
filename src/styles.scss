@@ -1,6 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Poppins;
+  src: url(../src/assets/fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Apollo;
+  src: url(../src/assets/fonts/APOLLO.otf) format("opentype");
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Apollo;
+}
+
+p {
+  font-family: Poppins;
 }

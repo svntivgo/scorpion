@@ -5,14 +5,19 @@
     font-size: 48px;
   }
   .resumen-productos__contenedor {
-    padding: 50px 10vw;
+    padding: 200px 10vw 50px 10vw;
+
     .resumen-productos__tarjeta {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      margin: 40px 0;
+      margin: -40px 0;
       img {
         width: 35vw;
+        transition: ease-in-out 1s;
+        &:hover {
+          transform: scale(1.03);
+        }
       }
       .resumen-productos__tarjeta-texto {
         width: 35vw;
@@ -25,6 +30,12 @@
       &.urbana,&.hills {
         flex-direction: row-reverse;
       }
+    }
+    &:first-child {
+      margin-top: 50px;
+    }
+    &:last-child {
+      margin-bottom: 50px;
     }
   }
 }

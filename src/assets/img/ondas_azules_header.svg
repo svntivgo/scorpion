@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 237.21 243.39">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #0d2449;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #85754e;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="-618.15" y="399.99" width="377.42" height="324.79"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path class="cls-3" d="M-288.77,128.83h-321s0,559.28,0,559.28c187.18-45.74,322.78-208.25,322.78-409.52l-1.79-149.76Z"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-3" x="-3.09" y="3.09" width="243.39" height="237.21" transform="translate(240.3 3.09) rotate(90)"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <g class="cls-5">
+      <g>
+        <rect class="cls-2" x="-82.62" y="-139.59" width="209.67" height="622.64" transform="translate(-149.52 193.95) rotate(-90)"/>
+        <polyline class="cls-2" points="126.16 690.32 -81.48 480.65 126.16 276.57 -83.21 66.9"/>
+        <polyline class="cls-2" points="333.53 690.32 125.9 480.65 333.53 276.57 124.16 66.9"/>
+      </g>
+    </g>
+  </g>
+  <g class="cls-4">
+    <g>
+      <circle class="cls-1" cx="236.95" cy="0" r="232.17" transform="translate(69.4 167.55) rotate(-45)"/>
+      <circle class="cls-1" cx="236.95" cy="0" r="199.9" transform="translate(69.4 167.55) rotate(-45)"/>
+      <circle class="cls-1" cx="236.95" cy="0" r="167.64" transform="translate(69.4 167.55) rotate(-45)"/>
+      <circle class="cls-1" cx="236.95" cy="0" r="135.37" transform="translate(69.4 167.55) rotate(-45)"/>
+      <circle class="cls-1" cx="236.95" cy="0" r="103.11" transform="translate(218.05 236.2) rotate(-85.43)"/>
+      <circle class="cls-1" cx="236.95" cy="0" r="70.85" transform="translate(218.05 236.2) rotate(-85.43)"/>
+      <circle class="cls-1" cx="236.95" cy="0" r="38.58" transform="translate(218.05 236.2) rotate(-85.43)"/>
+    </g>
+  </g>
+</svg>
