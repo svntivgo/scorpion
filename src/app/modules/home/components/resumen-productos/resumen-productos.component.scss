@@ -3,16 +3,16 @@
 .resumen-productos {
   padding-top: 100px;
   h2 {
-    padding: 0 25%;
+    padding: 100px 25%;
     text-align: center;
     font-size: 3rem;
     color: $azul;
+    background: $crema;
     span {
       color: $dorado;
     }
   }
   .resumen-productos__contenedor {
-    padding: 200px 0;
 
     .resumen-productos__tarjeta {
       width: 100%;
@@ -20,7 +20,6 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      margin: -40px 0;
       img {
         width: 30vw;
         transition: ease-in-out 1s;
@@ -37,7 +36,7 @@
         align-items: flex-start;
         margin: 0 auto;
         h3 {
-          font-size: 4rem;
+          font-size: 4.5rem;
           color: $dorado;
         }
         p {
@@ -74,6 +73,13 @@
             }
           }
         }
+      }
+      &.raya {
+        background: $crema;
+      }
+      &.urbana {
+        background: white;
+        margin-top: -20vh;
       }
       &.raya,
       &.orania {
@@ -178,9 +184,6 @@
           z-index: 3;
         }
       }
-    }
-    &:first-child {
-      margin-top: 50px;
     }
     &:last-child {
       margin-bottom: 50px;
