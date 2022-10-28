@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import './app/styles/variables';
+
 @font-face {
   font-family: Poppins;
   src: url(../src/assets/fonts/Poppins-Regular.ttf) format("truetype");
@@ -19,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Apollo;
   font-weight: 400;
   letter-spacing: 0.4rem;
+  color: $azul;
 }
 
 p, button, label {

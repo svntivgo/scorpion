@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 525.03 421.72">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        stroke: #85754e;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-4" x="1468.55" y="-38.04" width="492.74" height="391.4"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-4" x="13.89" y="15.78" width="492.74" height="391.4"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-3" x="-305.28" y="15.78" width="810.45" height="810.45" transform="translate(-321.06 520.95) rotate(-90)"/>
+    </clipPath>
+  </defs>
+  <g class="cls-5">
+    <g>
+      <rect class="cls-3" x="334.31" y="-42.67" width="410.66" height="1219.5" transform="translate(-27.44 1106.71) rotate(-90)"/>
+      <line class="cls-3" x1="126.05" y1="363.03" x2="-71.47" y2="168.13"/>
+      <line class="cls-3" x1="537.42" y1="362.83" x2="131.24" y2="-37.96"/>
+      <line class="cls-3" x1="336.53" y1="772.4" x2="336.54" y2="-37.96"/>
+      <polyline class="cls-3" points="336.05 772.4 742.73 361.75 336.06 -37.96 746.12 -448.61"/>
+      <polyline class="cls-3" points="-70.11 772.4 336.56 361.75 -70.11 -37.96 339.96 -448.61"/>
+    </g>
+  </g>
+  <g class="cls-2">
+    <g>
+      <rect class="cls-3" x="-305.28" y="15.78" width="810.45" height="810.45" transform="translate(-321.06 520.95) rotate(-90)"/>
+      <rect class="cls-3" x="505.18" y="15.79" width="810.45" height="810.45" transform="translate(489.38 1331.41) rotate(-90)"/>
+      <rect class="cls-3" x="705.05" y="-594.8" width="410.72" height="810.45" transform="translate(1099.97 720.84) rotate(-90)"/>
+      <g>
+        <g class="cls-1">
+          <g>
+            <circle class="cls-3" cx="505.18" cy="15.78" r="810.45" transform="translate(136.8 361.84) rotate(-45)"/>
+            <circle class="cls-3" cx="505.18" cy="15.78" r="673.58" transform="translate(136.8 361.84) rotate(-45)"/>
+            <circle class="cls-3" cx="505.18" cy="15.78" r="538.98" transform="translate(136.8 361.84) rotate(-45)"/>
+            <circle class="cls-3" cx="505.18" cy="15.78" r="404.25" transform="translate(136.8 361.84) rotate(-45)"/>
+            <circle class="cls-3" cx="505.18" cy="15.78" r="271.88" transform="translate(136.8 361.84) rotate(-45)"/>
+            <circle class="cls-3" cx="505.18" cy="15.78" r="137.63" transform="translate(136.8 361.84) rotate(-45)"/>
+          </g>
+        </g>
+        <rect class="cls-3" x="-305.28" y="15.78" width="810.45" height="810.45" transform="translate(-321.06 520.95) rotate(-90)"/>
+      </g>
+      <path class="cls-3" d="M302.9-389.19c110.31,0,199.74,89.43,199.74,199.75,0,110.31-89.43,199.74-199.74,199.74"/>
+      <path class="cls-3" d="M-98.44-394.78c110.31,0,199.74,91.93,199.74,205.33,0,113.4-89.43,205.33-199.74,205.33V-394.78Z"/>
+      <rect class="cls-3" x="97.57" y="-391.04" width="410.66" height="403.19" transform="translate(492.35 113.45) rotate(-90)"/>
+      <rect class="cls-3" x="-307.31" y="-392.74" width="410.66" height="406.58" transform="translate(87.47 -291.44) rotate(-90)"/>
+      <circle class="cls-3" cx="302.9" cy="-189.45" r="199.74" transform="translate(222.68 158.69) rotate(-45)"/>
+      <path class="cls-3" d="M1315.63,15.79c0,447.6-362.86,810.45-810.46,810.45"/>
+    </g>
+  </g>
+</svg>

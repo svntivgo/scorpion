@@ -32,7 +32,48 @@
         }
       }
       .resumen-productos__tarjeta-texto {
-        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 auto;
+        h3 {
+          font-size: 4rem;
+          color: $dorado;
+        }
+        p {
+          color: $azul;
+          font-weight: 700;
+          &:nth-child(2) {
+            color: $dorado;
+          }
+        }
+        table {
+          margin-top: 25px;
+          border-spacing: 0px;
+          border: 2px solid $dorado;
+          border-radius: 20px 0 20px 0;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 0.8rem;
+          thead {
+            background: $crema;
+            color: $dorado;
+            th {
+              padding: 15px 15px;
+            }
+            th:first-child {
+              border-radius: 20px 0 20px 0;
+            }
+          }
+          tbody {
+            tr {
+              td {
+                color: $azul;
+                padding: 5px 10px;
+              }
+            }
+          }
+        }
       }
       &.raya,
       &.orania {
@@ -44,41 +85,97 @@
       &.hills {
         flex-direction: row-reverse;
       }
-      &.raya {
-        .resumen-productos__imagen {
+
+      .resumen-productos__imagen {
+        width: 30vw;
+        height: 30vw;
+        .resumen-productos__foto {
           width: 30vw;
           height: 30vw;
-          .raya {
-            width: 30vw;
-            height: 30vw;
+          position: absolute;
+          z-index: 2;
+          &.raya {
             background: url(../../../../../assets/img/resumen-productos/raya.png);
+            background-position: right;
             background-size: contain;
             background-repeat: no-repeat;
+          }
+          &.urbana {
+            background: url(../../../../../assets/img/resumen-productos/urbana.png);
+            background-position: left;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-left: -1vw;
+          }
+          &.orania {
+            background: url(../../../../../assets/img/resumen-productos/orania.png);
             background-position: right;
-            position: absolute;
-            z-index: 2;
+            background-size: contain;
+            background-repeat: no-repeat;
           }
-          .ondas {
-            width: 15vw;
-            position: relative;
-            top: 1vw;
-            left: 3vw;
-            z-index: 1;
+          &.hills {
+            background: url(../../../../../assets/img/resumen-productos/orania.png);
+            background-position: left;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 50%;
           }
-          .flechas {
-            width: 8vw;
-            position: relative;
-            top: 23vw;
-            left: -12vw;
-            z-index: 3;
-          }
-          .abanicos {
-            width: 10vw;
-            position: relative;
-            top: 18vw;
-            left: 20vw;
-            z-index: 3;
-          }
+        }
+        .ondas {
+          width: 15vw;
+          position: relative;
+          top: 1vw;
+          left: 3vw;
+          z-index: 1;
+        }
+        .flechas {
+          width: 8vw;
+          position: relative;
+          top: 23vw;
+          left: -12vw;
+          z-index: 3;
+        }
+        .abanicos {
+          width: 10vw;
+          position: relative;
+          top: 18vw;
+          left: 20vw;
+          z-index: 3;
+        }
+        .ondas-marco {
+          width: 18vw;
+          position: relative;
+          top: -6vw;
+          left: -1vw;
+          z-index: 1;
+        }
+        .puntos {
+          width: 2vw;
+          position: relative;
+          top: 18vw;
+          left: -15vw;
+          z-index: 3;
+        }
+        .escuadra {
+          width: 13vw;
+          position: relative;
+          top: 4vw;
+          left: 16vw;
+          z-index: 3;
+        }
+        .ondas-arriba {
+          width: 11vw;
+          position: relative;
+          top: -18vw;
+          left: 19vw;
+          z-index: 1;
+        }
+        .flecha {
+          width: 9vw;
+          position: relative;
+          top: 17vw;
+          left: -17vw;
+          z-index: 3;
         }
       }
     }
