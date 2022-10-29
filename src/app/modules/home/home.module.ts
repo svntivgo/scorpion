@@ -11,6 +11,7 @@ import { UrbanaComponent } from './componentes/urbana/urbana.component';
 import { OraniaComponent } from './componentes/orania/orania.component';
 import { HillsParkComponent } from './componentes/hills-park/hills-park.component';
 import { EmaarComponent } from './componentes/emaar/emaar.component';
+import { PorqueComponent } from './components/porque/porque.component';
 
 
 
@@ -27,6 +28,7 @@ import { EmaarComponent } from './componentes/emaar/emaar.component';
     OraniaComponent,
     HillsParkComponent,
     EmaarComponent,
+    PorqueComponent,
   ],
   imports: [
     CommonModule

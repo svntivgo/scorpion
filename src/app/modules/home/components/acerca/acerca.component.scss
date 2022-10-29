@@ -38,10 +38,13 @@
       color: $azul;
       margin-bottom: 25px;
     }
+    img{
+      width: 101.4%;
+    }
     form {
       width: 100%;
       border: 1.5px solid $dorado;
-      border-radius: 30px 0 30px 0;
+      border-radius: 30px 0 0 0;
       padding: 30px 10%;
       label {
         display: block;
@@ -64,7 +67,25 @@
         &:focus {
           outline: 1.5px solid $dorado;
         }
+        
       }
+      select {
+        width: 100%;
+        height: 25px;
+        border: 1.5px solid $dorado;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+        color: $dorado;
+        font-family: Poppins;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+        &:focus {
+          outline: 1.5px solid $dorado;
+        }
+        
+      }
+      
       .acerca__campo-telefono {
         display: flex;
         width: 100%;
@@ -94,16 +115,30 @@
   }
   .acerca__texto {
     width: 40vw;
+    
     img {
-      width: 300px;
+      &.logo{
+        width: 150px;
+      }
+      &.linea{
+        width: 15vw;
+        top: 0;
+        position: relative;
+        float: right;
+        z-index: -1;
+        
+      }
+      
     }
     h2 {
-      font-size: 3rem;
+      margin-bottom: 40px;
+      margin-top: 20px;
+      font-size: 1.5rem;
       color: $azul;
     }
     p {
       color: $gris;
-      font-size: 1.8rem;
+      font-size: 0.9rem;
       strong {
         color: $azul;
       }

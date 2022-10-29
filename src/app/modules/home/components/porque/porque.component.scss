@@ -1,0 +1,71 @@
+@import "../../../../styles/variables";
+
+.porque{
+    background-color: $crema;
+    align-content: center;
+    h2{
+        &.enfocamos{
+            color: $azul;
+            text-align: center;
+            font-size: 40px;
+        }
+        &.llevar{
+            color: $dorado;
+            text-align: center;
+            font-size: 40px;
+        }
+    }
+    img{
+        &.izquierda{
+            position: relative;
+            top: 40vw;
+            left: 0;
+            z-index: 2;
+            width: 400px;
+        }
+    }
+    .porque__texto{
+        margin-top: 70px;
+        margin-left: 200px;
+        margin-right: 200px;
+        img{
+            &.rombo{
+                position: relative;
+                width: 20px;
+                margin-bottom: -40px;
+            }
+        }
+        p{
+            text-align: start;
+            color: $gris;
+            font-size: 1 rem;
+            strong{
+                color: $azul;
+            }
+            &.izquierda{
+                margin-top: 100px;
+                margin-left: 20px;
+                width: 25vw;
+                color: $gris;
+                text-align: start;
+            }
+            &.derecha{
+                margin-left: 500px;
+                width: 20vw;
+                margin-top: -170px;
+                color: $dorado;
+                font-size: 1rem;
+                text-align: start;
+            }
+            &.derecha__2{
+                color: $azul;
+                width: 40vw;
+                text-align: start;
+                font-size: 2.5rem;
+                margin-left: 500px;
+            }
+
+        }
+        
+    }
+}
