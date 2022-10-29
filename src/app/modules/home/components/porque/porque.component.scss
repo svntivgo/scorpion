@@ -3,140 +3,90 @@
     font-family: Poppins;
     src: url(../../../../../assets/fonts/Poppins-Regular.ttf) format("truetype");
   }
-  
+
   @font-face {
     font-family: Apollo;
     src: url(../../../../../assets/fonts/APOLLO.otf) format("opentype");
   }
 .porque{
-    background-color: $crema;
-    align-content: center;
-    h2{
-        &.enfocamos{
-            color: $azul;
-            text-align: center;
-            font-size:3rem;
-        }
-        &.llevar{
-            color: $dorado;
-            text-align: center;
-            font-size: 3rem;
-        }
+  display: flex;
+  .porque__columna {
+    width: 20%;
+    &.izquierda {
+      background: url(../../../../../assets/img/textura_porque.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
     }
-    img{
-        &.izquierda{
-            position: relative;
-            top: 40vw;
-            left: 0;
-            z-index: 2;
-            width: 40vw;
-        }
+    &.derecha {
+      background: url(../../../../../assets/img/textura_porque.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: left;
+      transform: scaleX(-1);
     }
-    .porque__texto{
-        margin-top: 2vw;
-        margin-left: 20vw;
-        margin-right: 20vw;
-        img{
-            &.rombo{
-                position: relative;
-                width: 1vw;
-                margin-bottom: -10vw;
-                margin-left: 30vw;
-            }
-            &.rombo__2{
-                position: relative;
-                width: 1vw;
-                margin-bottom: -50px;
-                margin-left: 700px;
-            }
+    &.medio {
+      padding: 7vh 0;
+      width: 60%;
+      margin: 0 auto;
+      h2 {
+        font-size: 3.5rem;
+        text-align: center;
+        &.titulo-color {
+          text-align: center;
+          color: $dorado;
+          margin-bottom: 7vh;
         }
-        p{
-            text-align: start;
-            color: $gris;
-            font-size: 1 rem;
-            strong{
-                color: $azul;
-            }
-            &.izquierda{
-                margin-top: 100px;
-                margin-left: 20px;
-                width: 25vw;
-                color: $gris;
-                text-align: start;
-            }
-            &.izquierda__2{
-                color: $gris;
-                width: 25vw;
-            }
-            &.derecha{
-                margin-left: 40vw;
-                width: 20vw;
-                margin-top: -6vw;
-                color: $dorado;
-                font-size: 1rem;
-                text-align: start;
-            }
-            &.derecha__2{
-                color: $azul;
-                width: 40vw;
-                text-align: start;
-                font-size: 2.5rem;
-                margin-left: 40vw;
-                font-family: Apollo;
-            }
-            &.derecha__3{
-                margin-left: 900px;
-                color: $dorado;
-                font-size: 1.5rem;
-                text-align: start;
-            }
-            &.derecha__4{
-                margin-top: -100px;
-                color: $azul;
-                width: 40vw;
-                text-align: start;
-                font-size: 2.5rem;
-                margin-left: 900px;
-                font-family: Apollo;
-            }
+      }
+      p {
+        color: $dorado;
+        span {
+          font-weight: 600;
+          color: $azul;
+        }
+      }
 
+      .porque__tarjeta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5vh 0;
+        border-bottom: 1px $dorado solid;
+        p {
+          width: 45%;
         }
-        
-    }
-    .porque__texto2{
-        
-        margin-left: 10vw ;
-        text-align: start;
-        img{
-            &.rombo{
-                position: relative;
-                width: 1vw;
-                margin-top: 10vw;
-                margin-left: 40vw ;
-            }
-            
+        img {
+          width: 10%;
+          padding: 0 4%;
         }
-        h2{
-            text-align: start;
-            margin-left: 40vw;
+        .porque__tarjeta-titulo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 45%;
+          p {
+            width: 100%;
+            letter-spacing: 3px;
+            color: $dorado;
+          }
+          h2 {
+            width: 100%;
             color: $azul;
+            text-align: center;
+            font-size: 2.2rem;
+          }
         }
-        p{
-            &.inicial{
-                margin-top: 1vw;
-                margin-left: 12vw;
-                text-align: start;
-                color: $dorado;
-                
-            }
-            &.derecha{
-                font-size: 1.3rem;
-               margin-top: -4vw;
-                margin-left: 48vw;
-                width: 25vw;
-                color: $gris;
-                text-align: start;
-            }
+        &.dos, &.cuatro {
+          flex-direction: row-reverse;
         }
+        &.tres {
+          .porque__tarjeta-titulo {
+            flex-direction: column-reverse;
+          }
+        }
+        &.cuatro {
+          border: none;
+        }
+      }
     }
+  }
 }
