@@ -2,161 +2,100 @@
 .footer {
   padding: 50px 0;
   width: 100%;
-  height: 100vh;
   background: url(../../../../../assets/img/resumen-productos/fondo_resumen.svg);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-  .footer__logo {
+  .footer__info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    img {
-      &.logo {
-        width: 17vw;
-        margin-left: 20vw;
+    justify-content: center;
+    align-items: center;
+    .footer__logo {
+      img {
+        &.logo {
+          width: 200px;
+          margin-right: 150px;
+        }
+      }
+    }
+    .footer__encabezado {
+      p {
+        &.expectativas {
+          color: $dorado;
+        }
+      }
+      h2 {
+        width: 28vw;
+        font-size: 2rem;
+        color: $azul;
+      }
+    }
+  }
+  .footer__contenedor {
+    margin: 150px 50px;
+    display: flex;
+    justify-content: center;
+
+    .footer__fotos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 50px;
+      img {
+        width: 180px;
         position: relative;
-        top: 10vh;
-        right: 25vw;
-      }
-    }
-  }
-  .footer__encabezado {
-    p {
-      &.espectativas {
-        margin-left: 50vw;
-        margin-top: -11vw;
-        color: $dorado;
-      }
-    }
-    h2 {
-      width: 28vw;
-      font-size: 2rem;
-      color: $azul;
-      margin-bottom: -50vw;
-      margin-left: 50vw;
-    }
-  }
-  .footer__fotos {
-    margin-top: 65vw;
-    &.ceo {
-      img {
-        width: 10vw;
-        margin-left: 15vw;
-
+        z-index: 2;
         &.circulo {
+          height: 90px;
+          width: auto;
           position: absolute;
-          margin-top: 2vw;
-          margin-left: 12vw;
-          width: 5vw;
-          transform: rotate(270deg);
-          z-index: -1;
-        }
-        &.real {
-          margin-top: -90vw;
-          margin-left: 49vw;
+          z-index: 1;
         }
       }
       p {
-        &.nombre__ceo {
-          margin-top: 2vw;
-          margin-left: 13vw;
-          font-size: 2rem;
+        text-align: center;
+        &.nombre {
+          margin-top: 50px;
+          font-family: Apollo;
+          letter-spacing: 3px;
+          font-weight: 600;
+          color: $azul;
         }
-        &.cargo__ceo {
-          margin-left: 13vw;
+        &.cargo {
+          font-family: Poppins;
+          letter-spacing: 3px;
           color: $gris;
-          font-size: 2rem;
-          padding-bottom: 3vw;
+          font-size: 0.8rem;
+        }
+        &.nacionalidad {
+          font-family: Poppins;
+          letter-spacing: 3px;
+          color: $gris;
+          font-size: 0.5rem;
+        }
+      }
+      &.ceo {
+        img.circulo {
+          transform: translate(-100px, 30px);
+        }
+      }
+      &.martin {
+        img.circulo {
+          transform: translate(-80px, 120px);
+          z-index: 3;
+        }
+      }
+      &.sunny {
+        img.circulo {
+          transform: translate(70px, 100px);
+          z-index: 3;
+        }
+      }
+      &.johanna {
+        img.circulo {
+          transform: translate(-90px, 10px);
         }
       }
     }
-    &.real {
-      margin-top: -20vw;
-      margin-left: 20vw;
-      img {
-        width: 10vw;
-        margin-left: 15vw;
-
-        &.circulo {
-          margin-top: 2vw;
-          margin-left: -13vw;
-          width: 5vw;
-
-          z-index: -1;
-        }
-      }
-      p {
-        &.nombre__ceo {
-          margin-top: 2vw;
-          margin-left: 15vw;
-          font-size: 2rem;
-        }
-        &.cargo__ceo {
-          margin-left: 12vw;
-          color: $gris;
-          font-size: 2rem;
-          padding-bottom: 3vw;
-        }
-      }
-    }
-    &.martin {
-        margin-top: -20vw;
-        margin-left: 40vw;
-        img {
-          width: 10vw;
-          margin-left: 13vw;
-  
-          &.circulo {
-            margin-top: 2vw;
-            margin-left: -4vw;
-            width: 5vw;
-  
-            z-index: -1;
-          }
-        }
-        p {
-          &.nombre__martin {
-            margin-top: 2vw;
-            margin-left: 14vw;
-            font-size: 2rem;
-          }
-          &.cargo__martin {
-            margin-left: 12vw;
-            color: $gris;
-            font-size: 2rem;
-            padding-bottom: 3vw;
-          }
-        }
-      }
-      &.colombia {
-        margin-top: -20vw;
-        margin-left: 60vw;
-        img {
-          width: 10vw;
-          margin-left: 15vw;
-  
-          &.circulo {
-              position: absolute;
-            margin-top: -0.5vw;
-            margin-left: -12vw;
-            width: 5vw;
-  
-            z-index: -1;
-          }
-        }
-        p {
-          &.nombre__ceo {
-            margin-top: 2vw;
-            margin-left: 12vw;
-            font-size: 2rem;
-          }
-          &.cargo__ceo {
-            margin-left: 10vw;
-            color: $gris;
-            font-size: 2rem;
-            padding-bottom: 3vw;
-          }
-        }
-      }
   }
 }
