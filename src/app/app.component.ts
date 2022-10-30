@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  estado='no ha cargado'
+  constructor() {
+    window.addEventListener('load', (e) => {
+      this.estado = 'cargado'
+      console.log(e)
+    })
+  }
   title = 'scorpion';
 }

@@ -9,7 +9,7 @@ import { HillsParkComponent } from './modules/home/componentes/hills-park/hills-
 import { EmaarComponent } from './modules/home/componentes/emaar/emaar.component';
 
 const routes: Routes = [
-  { path: '', redirectTo:'/inicio', pathMatch:'full'},
+  { path: '', component:HomeComponent, pathMatch:'full'},
   { path: 'inicio', component: HomeComponent },
   { path: 'propiedades', component: PropiedadesComponent },
   { path: 'raya', component: RayaComponent },
