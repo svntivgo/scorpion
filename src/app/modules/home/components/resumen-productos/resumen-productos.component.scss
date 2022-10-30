@@ -1,7 +1,7 @@
 @import "../../../../styles/variables";
 
 .resumen-productos {
-  padding-top: 100px;
+  
   h2 {
     padding: 100px 25%;
     text-align: center;
@@ -15,8 +15,8 @@
   img{
     &.fondo{
      
-          position: relative;
-          top: 42.8vw;
+          position: absolute;
+          top: 111.5vw;
           left: 0;
           z-index: 1;
     }
@@ -90,6 +90,24 @@
             }
           }
         }
+        .ver{
+          margin: 20px;
+          width: 40%;
+          color: $dorado;
+          background-color: $crema;
+          border-radius: 30px 0 30px 0;
+          border-color: $dorado;
+          background: linear-gradient(to rigath, transparent 50%, $dorado 50% );
+          background-size: 200%;
+          background-position: left;
+          transition: background-color  0.5s ease-in-out;
+        }
+        .ver:hover{
+          background-color: $dorado;
+          background-position:right;
+          color: $crema;
+          font-weight: 700 ;
+        }
         table {
           margin-top: 25px;
           border-spacing: 0px;
@@ -139,7 +157,7 @@
           background: linear-gradient(to rigath, transparent 50%, $dorado 50% );
           background-size: 200%;
           background-position: left;
-          transition: background-position back 0.5s;
+          transition: background-color  0.5s ease-in-out;
         }
         .ver:hover{
           background-color: $dorado;

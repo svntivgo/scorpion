@@ -12,6 +12,7 @@ import { OraniaComponent } from './componentes/orania/orania.component';
 import { HillsParkComponent } from './componentes/hills-park/hills-park.component';
 import { EmaarComponent } from './componentes/emaar/emaar.component';
 import { PorqueComponent } from './components/porque/porque.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -29,6 +30,7 @@ import { PorqueComponent } from './components/porque/porque.component';
     HillsParkComponent,
     EmaarComponent,
     PorqueComponent,
+    FooterComponent,
   ],
   imports: [
     CommonModule
