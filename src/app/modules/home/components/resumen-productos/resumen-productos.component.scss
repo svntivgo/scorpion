@@ -1,7 +1,6 @@
 @import "../../../../styles/variables";
 
 .resumen-productos {
-  
   h2 {
     padding: 100px 25%;
     text-align: center;
@@ -12,18 +11,15 @@
       color: $dorado;
     }
   }
-  img{
-    &.fondo{
-     
-          position: absolute;
-          top: 111.5vw;
-          left: 0;
-          z-index: 1;
+  img {
+    &.fondo {
+      position: absolute;
+      top: 111.5vw;
+      left: 0;
+      z-index: 1;
     }
-    
   }
   .resumen-productos__contenedor {
-
     .resumen-productos__tarjeta {
       width: 100%;
       height: 80vh;
@@ -53,60 +49,59 @@
         p {
           color: $azul;
           font-weight: 700;
-          
+
           &:nth-child(2) {
             color: $gris;
-            &.p__raya__1{ 
+            &.p__raya__1 {
               margin-left: 10vw;
             }
-            &.p__orania__1{ 
+            &.p__orania__1 {
               margin-left: 10vw;
             }
-            &.p__hills__1{ 
+            &.p__hills__1 {
               margin-left: 5vw;
             }
-
           }
-          &:nth-child(3){
+          &:nth-child(3) {
             padding: 10px;
             color: $dorado;
             margin-left: 10vw;
-            img{
-              &.pin{
+            img {
+              &.pin {
                 width: 20px;
-              } &.pin__urbana{
+              }
+              &.pin__urbana {
                 margin-left: -4vw;
                 width: 20px;
               }
-              &.pin__orania{
+              &.pin__orania {
                 width: 20px;
                 margin-left: 2vw;
               }
-              &.pin__hills{
+              &.pin__hills {
                 width: 20px;
                 margin-left: -5vw;
               }
-
             }
           }
         }
-        .ver{
+        .ver {
           margin: 20px;
           width: 40%;
           color: $dorado;
           background-color: $crema;
           border-radius: 30px 0 30px 0;
           border-color: $dorado;
-          background: linear-gradient(to rigath, transparent 50%, $dorado 50% );
+          background: linear-gradient(to rigath, transparent 50%, $dorado 50%);
           background-size: 200%;
           background-position: left;
-          transition: background-color  0.5s ease-in-out;
+          transition: background-color 0.5s ease-in-out;
         }
-        .ver:hover{
+        .ver:hover {
           background-color: $dorado;
-          background-position:right;
+          background-position: right;
           color: $crema;
-          font-weight: 700 ;
+          font-weight: 700;
         }
         table {
           margin-top: 25px;
@@ -147,59 +142,57 @@
         .resumen-productos__tarjeta-texto {
           text-align: ce;
         }
-        .ver{
+        .ver {
           margin: 20px;
           width: 40%;
           color: $dorado;
           background-color: $crema;
           border-radius: 30px 0 30px 0;
           border-color: $dorado;
-          background: linear-gradient(to rigath, transparent 50%, $dorado 50% );
+          background: linear-gradient(to rigath, transparent 50%, $dorado 50%);
           background-size: 200%;
           background-position: left;
-          transition: background-color  0.5s ease-in-out;
+          transition: background-color 0.5s ease-in-out;
         }
-        .ver:hover{
+        .ver:hover {
           background-color: $dorado;
-          background-position:right;
+          background-position: right;
           color: $crema;
-          font-weight: 700 ;
+          font-weight: 700;
         }
-        img{
-          &.logo__orania{
+        img {
+          &.logo__orania {
             width: 200px;
             position: relative;
             top: -15px;
             left: 200px;
           }
-          &.logo__raya{
+          &.logo__raya {
             width: 200px;
             position: relative;
             top: -15px;
             left: 200px;
           }
-         
         }
       }
       &.urbana,
       &.hills {
         flex-direction: row-reverse;
       }
-      img{
-        &.logo__hils{
+      img {
+        &.logo__hils {
           width: 200px;
           position: relative;
           top: -15px;
           left: 100px;
         }
-        &.logo__urban{
+        &.logo__urban {
           width: 200px;
           top: -15px;
           left: 100px;
           position: relative;
         }
       }
-      
 
       .resumen-productos__imagen {
         width: 35vw;
@@ -217,7 +210,7 @@
             animation: slide__raya 8s infinite;
           }
           @keyframes slide__raya {
-            50%{
+            50% {
               background: url(../../../../../assets/img/resumen-productos/img1-1.png);
               background-position: right;
               background-size: contain;
@@ -233,7 +226,7 @@
             animation: slide__urbana 8s infinite;
           }
           @keyframes slide__urbana {
-            50%{
+            50% {
               background: url(../../../../../assets/img/resumen-productos/img2-1.png);
               background-position: left;
               background-size: contain;
@@ -248,7 +241,7 @@
             animation: slide__orania 8s infinite;
           }
           @keyframes slide__orania {
-            50%{
+            50% {
               background: url(../../../../../assets/img/resumen-productos/img3-1.png);
               background-position: right;
               background-size: contain;
@@ -263,7 +256,7 @@
             animation: slide__hills 8s infinite;
           }
           @keyframes slide__hills {
-            50%{
+            50% {
               background: url(../../../../../assets/img/resumen-productos/img4-1.png);
               background-position: left;
               background-size: contain;
@@ -271,7 +264,7 @@
             }
           }
         }
-        
+
         .ondas {
           width: 22vw;
           position: relative;
@@ -339,6 +332,135 @@
     }
     &:last-child {
       margin-bottom: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .resumen-productos {
+    h2 {
+      padding: 100px 10%;
+    }
+    .resumen-productos__contenedor {
+      .resumen-productos__tarjeta {
+        height: unset;
+        flex-direction: column-reverse;
+        .resumen-productos__imagen {
+          width: 70vw;
+          height: 70vw;
+
+          .resumen-productos__foto {
+            width: 70vw;
+            height: 70vw;
+          }
+          .ondas {
+            width: 44vw;
+          }
+          .flechas {
+            width: 22vw;
+            top: 52vw;
+            left: -56vw;
+          }
+          .abanicos {
+            width: 24vw;
+            top: 38vw;
+            left: 40vw;
+          }
+          .flecha {
+            width: 18vw;
+            top: 34vw;
+            left: -34vw;
+          }
+          .ondas-arriba {
+            width: 22vw;
+            top: -36vw;
+            left: 38vw;
+          }
+          .ondas-marco {
+            width: 36vw;
+            top: -7vw;
+            left: -12vw;
+          }
+          .puntos {
+            width: 20vw;
+            top: 52vw;
+            left: -30vw;
+          }
+          .escuadra {
+            width: 21vw;
+            top: 30vw;
+            left: 31vw;
+          }
+        }
+        .resumen-productos__tarjeta-texto {
+          margin: 100px 0;
+          align-items: center;
+          p {
+            &:nth-child(2) {
+              &.p__raya__1 {
+                margin-left: 0vw;
+              }
+              &.p__orania__1 {
+                margin-left: 0vw;
+              }
+              &.p__hills__1 {
+                margin-left: 0vw;
+              }
+            }
+            &:nth-child(3) {
+              padding: 10px 0;
+              margin-left: 0vw;
+              img {
+                &.pin {
+                  width: 20px;
+                }
+                &.pin__urbana {
+                  margin-left: 0vw;
+                  width: 20px;
+                }
+                &.pin__orania {
+                  width: 20px;
+                  margin-left: 0vw;
+                }
+                &.pin__hills {
+                  width: 20px;
+                  margin-left: 0vw;
+                }
+              }
+            }
+          }
+          table {
+            width: 85%;
+          }
+        }
+        &.raya,
+        &.orania {
+          .resumen-productos__tarjeta-texto {
+            align-items: center;
+          }
+          img {
+            &.logo__orania {
+              position: unset;
+            }
+            &.logo__raya {
+              position: unset;
+            }
+          }
+        }
+        &.urbana,
+        &.hills {
+          flex-direction: column-reverse;
+          text-align: center;
+        }
+        img {
+          &.logo__hils {
+            position: unset;
+          }
+          &.logo__urban {
+            position: unset;
+          }
+        }
+      }
     }
   }
 }

@@ -91,3 +91,32 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .porque {
+    padding: 75px 0;
+    .porque__columna{
+      width: 0;
+      &.medio {
+        width: 85%;
+        .porque__tarjeta {
+          padding: 50px 0;
+          flex-direction: column-reverse;
+          p {
+            width: 100%;
+          }
+          img {
+            margin: 25px 0;
+          }
+          .porque__tarjeta-titulo {
+            width: 100%;
+            text-align: center;
+          }
+          &.dos, &.cuatro {
+            flex-direction: column-reverse;
+          }
+        }
+      }
+    }
+  }
+}

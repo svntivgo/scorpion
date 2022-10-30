@@ -99,3 +99,34 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    .footer__info {
+      flex-direction: column;
+      .footer__logo {
+        img {
+          &.logo {
+            margin-right: 0;
+          }
+        }
+      }
+      .footer__encabezado {
+        margin-top: 25px;
+        text-align: center;
+        h2 {
+          display: inline-block;
+          width: 85%;
+          font-size: 2rem;
+          color: $azul;
+        }
+      }
+    }
+    .footer__contenedor {
+      flex-wrap: wrap;
+      .footer__fotos {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
