@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.23 116.34">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #0d2449;
+        stroke-width: .6px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x=".3" y="87.52" width="10.24" height="28.52"/>
+  <line class="cls-1" x1="10.82" y1="116.04" x2="23.71" y2="116.04"/>
+  <polyline class="cls-2" points="5.91 116.04 16.02 116.04 16.02 67.03 5.91 67.03 5.91 87.68"/>
+  <polyline class="cls-2" points="21.89 45.28 10.82 45.28 10.82 66.91"/>
+  <polyline class="cls-2" points="27.24 33.61 27.24 20.56 15.74 20.56 15.74 45.29"/>
+  <polyline class="cls-2" points="18.47 20.46 18.47 8.63 24.51 8.63 24.51 20.46"/>
+  <polyline class="cls-2" points="20.54 8.61 20.54 .3 22.44 .3 22.44 8.61"/>
+  <polyline class="cls-2" points="33.14 116.04 21.91 116.04 21.91 33.64 33.14 33.64 33.14 56.96"/>
+  <polyline class="cls-2" points="36.22 116.04 25.84 116.04 25.84 56.93 36.22 56.93 36.22 77.47"/>
+  <polyline class="cls-2" points="39.45 116.04 28.93 116.04 28.93 77.42 39.45 77.42 39.45 98.5"/>
+  <rect class="cls-2" x="33.28" y="98.61" width="11.65" height="17.43"/>
+</svg>
