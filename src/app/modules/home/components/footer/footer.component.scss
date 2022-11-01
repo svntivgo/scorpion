@@ -1,6 +1,6 @@
 @import "../../../../styles/variables";
 .footer {
-  padding: 50px 0;
+  padding: 100px 0;
   width: 100%;
   background: url(../../../../../assets/img/resumen-productos/fondo_resumen.svg);
   background-size: cover;
@@ -11,50 +11,56 @@
     justify-content: center;
     align-items: center;
     .footer__logo {
+      width: 30vw;
       img {
         &.logo {
-          width: 200px;
-          margin-right: 150px;
+          width: 20vw;
+          margin-right: 100px;
         }
       }
     }
     .footer__encabezado {
+      width: 50vw;
       p {
         &.expectativas {
           color: $dorado;
+          font-size: 1.2rem;
+          margin-bottom: 25px;
         }
       }
       h2 {
-        width: 28vw;
-        font-size: 2rem;
+        font-size: 3.5rem;
         color: $azul;
+        letter-spacing: 0.7rem;
       }
     }
   }
   .footer__contenedor {
-    margin: 150px 50px;
+    margin: 150px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 
     .footer__fotos {
+      width: 180px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 0 50px;
+      margin: 0 50px;
       img {
-        width: 180px;
+        width: 140px;
         position: relative;
         z-index: 2;
         &.circulo {
-          height: 90px;
+          height: 60px;
           width: auto;
           position: absolute;
           z-index: 1;
         }
       }
       p {
-        text-align: center;
+        text-align: left;
         &.nombre {
+          align-self: flex-start;
           margin-top: 50px;
           font-family: Apollo;
           letter-spacing: 3px;
@@ -62,12 +68,14 @@
           color: $azul;
         }
         &.cargo {
+          align-self: flex-start;
           font-family: Poppins;
           letter-spacing: 3px;
           color: $gris;
           font-size: 0.8rem;
         }
         &.nacionalidad {
+          align-self: flex-start;
           font-family: Poppins;
           letter-spacing: 3px;
           color: $gris;
@@ -76,24 +84,24 @@
       }
       &.ceo {
         img.circulo {
-          transform: translate(-100px, 30px);
+          transform: translate(-70px, 30px);
         }
       }
       &.martin {
         img.circulo {
-          transform: translate(-80px, 120px);
+          transform: translate(-60px, 90px);
           z-index: 3;
         }
       }
       &.sunny {
         img.circulo {
-          transform: translate(70px, 100px);
+          transform: translate(50px, 90px);
           z-index: 3;
         }
       }
       &.johanna {
         img.circulo {
-          transform: translate(-90px, 10px);
+          transform: translate(-70px, 10px);
         }
       }
     }
@@ -102,16 +110,21 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
+    background: none;
     .footer__info {
       flex-direction: column;
+      align-items: center;
       .footer__logo {
+        width: auto;
         img {
           &.logo {
+            width: 80vw;
             margin-right: 0;
           }
         }
       }
       .footer__encabezado {
+        width: auto;
         margin-top: 25px;
         text-align: center;
         h2 {
@@ -124,6 +137,7 @@
     }
     .footer__contenedor {
       flex-wrap: wrap;
+      margin: 100px 0;
       .footer__fotos {
         margin-bottom: 50px;
       }

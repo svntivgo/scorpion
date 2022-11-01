@@ -3,8 +3,8 @@
 .acerca {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 50px 0;
+  justify-content: space-between;
+  margin-top: 50px;
   .acerca__contenedor-tarjetas {
     display: flex;
     justify-content: center;
@@ -34,12 +34,14 @@
   }
   .acerca__registro {
     width: 30vw;
+    margin: 0 auto;
     h3 {
       color: $azul;
       margin-bottom: 25px;
     }
     img {
       width: 101.4%;
+      margin-bottom: 50px;
     }
     form {
       width: 100%;
@@ -109,27 +111,30 @@
         font-size: 0.8rem;
         letter-spacing: 0.1rem;
       }
-      p {
-        font-size: 20px;
+      h3 {
+        margin-top: 25px;
+        margin-bottom: 0;
+        font-size: 1rem;
         color: $azul;
+        letter-spacing: 0.3rem;
         b {
-          font-size: 30px;
+          font-size: 1.5rem;
         }
       }
     }
   }
   .acerca__texto {
-    width: 40vw;
+    width: 50vw;
+    padding-right: 20vw;
 
     img {
       &.logo {
         width: 150px;
       }
       &.linea {
-        width: 15vw;
-        top: 0;
-        position: relative;
-        float: right;
+        width: 20vw;
+        right: 0;
+        position: absolute;
         z-index: -1;
       }
     }
@@ -158,6 +163,7 @@
     .acerca__contenedor-tarjetas {
       flex-direction: column;
       align-items: center;
+      margin-bottom: 50px;
       .acerca__tarjeta {
         border-right: none;
         max-width: unset;
@@ -171,8 +177,24 @@
       width: 80vw;
     }
     .acerca__texto {
-      width: 80vw;
-      margin-top: 100px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px 0;
+      padding-right: 0;
+      padding: 0 10%;
+      h2 {
+        text-align: center;
+      }
+      p {
+        text-align: justify;
+      }
+      img {
+        &.linea {
+          display: none;
+        }
+      }
     }
   }
 }
