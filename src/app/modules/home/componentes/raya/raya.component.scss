@@ -167,7 +167,9 @@
             tr {
               td {
                 color: $dorado;
-                padding: 5px 10px;
+                border-left: 1px solid $gris_tabla;
+                border-top: 1px solid $gris_tabla;
+                padding: 10px 10px;
               }
             }
           }
@@ -217,20 +219,23 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
-    button {
-      border: unset;
-      background: transparent;
-      color: $dorado;
-      padding: 5px 25px;
-      border-radius: 20px 0 20px 0;
-      border: 1px solid $dorado;
-      margin: 15px;
-      font-size: 0.8rem;
-      letter-spacing: 0.1rem;
-      transition: background-color 0.5s ease-in-out;
-      &:hover {
+    a {
+      button {
+        width: auto;
+        margin: 50px 25px;
+        color: $dorado;
+        background-color: transparent;
+        border-radius: 30px 0 30px 0;
+        border: 1px solid $dorado;
+        padding: 15px 15px;
+        letter-spacing: 0.2rem;
+        transition: background-color 0.5s ease-in-out;
+        animation: vibracion 1.5s infinite;
+      }
+      button:hover {
         background-color: $dorado;
         color: $crema;
+        animation: none;
       }
     }
   }
@@ -239,5 +244,17 @@
   img {
     width: 100%;
     position: relative;
+  }
+}
+
+@keyframes vibracion {
+  0% {
+    transform: scale(0.98);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(0.98);
   }
 }
