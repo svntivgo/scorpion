@@ -12,12 +12,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 0;
+  margin: 50px 0 100px 0;
+  padding: 0 0 0 50px;
   .resumen__texto {
     width: 35%;
     margin-right: 50px;
     h2 {
       font-size: 3rem;
+    }
+    p {
+      text-align: justify;
     }
     .resumen__contenedor-tarjetas {
       padding: 20px;
@@ -75,8 +79,9 @@
     }
   }
   .resumen__imagen {
-    width: 40%;
+    width: 40vw;
     margin-left: 50px;
+    margin-right: 3vw;
     .resumen__imagen-marco {
       width: 40vw;
       height: 40vw;
@@ -84,9 +89,10 @@
       position: absolute;
     }
     img {
-      width: 100%;
+      width: 40vw;
       position: relative;
       transform: translate(3vw, 3vw);
+      z-index: 2;
     }
   }
 }
@@ -96,7 +102,7 @@
   background-repeat: no-repeat;
   background-position: top right;
   background-color: $crema;
-  padding: 100px 0;
+  padding: 50px 0;
   .descripcion__contenedor {
     display: flex;
     justify-content: center;
@@ -136,17 +142,17 @@
           }
         }
         p {
-          margin-top: 50px;
           color: $gris;
+          text-align: justify;
         }
         table {
-          margin-top: 50px;
+          margin-top: 15px;
           border-spacing: 0px;
           border: 1px solid $gris_tabla;
           border-radius: 20px 0 20px 0;
           text-align: center;
           font-family: Poppins;
-          font-size: 0.8rem;
+          font-size: 1rem;
           thead {
             background: $gris_tabla;
             color: $dorado;
@@ -167,9 +173,9 @@
           }
         }
         form {
-          margin-top: 50px;
+          margin-top: 15px;
           input {
-            margin-top: 20px;
+            margin-top: 10px;
             border-radius: 20px 0 0 0;
             padding: 5px 25px;
             border: 2px solid $dorado;
@@ -210,7 +216,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     button {
       border: unset;
       background: transparent;
