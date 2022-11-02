@@ -4,7 +4,6 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { HomeComponent } from './components/home/home.component';
 import { AcercaComponent } from './components/acerca/acerca.component';
 import { ResumenProductosComponent } from './components/resumen-productos/resumen-productos.component';
-import { NavbarComponent } from './shared/navbar/navbar.component';
 import { PropiedadesComponent } from './componentes/propiedades/propiedades.component';
 import { RayaComponent } from './componentes/raya/raya.component';
 import { UrbanaComponent } from './componentes/urbana/urbana.component';
@@ -23,7 +22,6 @@ import { BotonesComponent } from './components/botones/botones.component';
     InicioComponent,
     AcercaComponent,
     ResumenProductosComponent,
-    NavbarComponent,
     PropiedadesComponent,
     RayaComponent,
     UrbanaComponent,

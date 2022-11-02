@@ -6,20 +6,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './modules/home/home.module';
 import { PiePaginaComponent } from '../app/modules/home/shared/pie-pagina/pie-pagina.component';
+import { NavbarComponent } from './modules/home/shared/navbar/navbar.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PiePaginaComponent
+    PiePaginaComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HomeModule
   ],
-  providers: [{provide:LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
