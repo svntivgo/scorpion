@@ -12,7 +12,7 @@
   display: flex;
   background: $crema;
   .porque__columna {
-    width: 20%;
+    width: 10%;
     &.izquierda {
       background: url(../../../../../assets/img/textura_porque.svg);
       background-size: cover;
@@ -32,14 +32,15 @@
       h2 {
         font-size: 3.5rem;
         text-align: center;
+        letter-spacing: 0.7rem;
         &.titulo-color {
-          text-align: center;
           color: $dorado;
           margin-bottom: 7vh;
         }
       }
       p {
         color: $dorado;
+        text-align: justify;
         span {
           font-weight: 600;
           color: $azul;
@@ -68,12 +69,13 @@
             width: 100%;
             letter-spacing: 3px;
             color: $dorado;
+            text-align: justify;
           }
           h2 {
+            text-align: left;
             width: 100%;
             color: $azul;
-            text-align: center;
-            font-size: 2.2rem;
+            font-size: 2.5rem;
           }
         }
         &.dos, &.cuatro {
@@ -94,11 +96,16 @@
 
 @media screen and (max-width: 1024px) {
   .porque {
-    padding: 75px 0;
+    padding-top: 50px;
     .porque__columna{
       width: 0;
       &.medio {
-        width: 85%;
+        width: 80%;
+        padding: 0;
+        h2 {
+          font-size: 2rem;
+          text-align: left;
+        }
         .porque__tarjeta {
           padding: 50px 0;
           flex-direction: column-reverse;
@@ -111,6 +118,9 @@
           .porque__tarjeta-titulo {
             width: 100%;
             text-align: center;
+            h2 {
+              font-size: 1.5rem;
+            }
           }
           &.dos, &.cuatro {
             flex-direction: column-reverse;

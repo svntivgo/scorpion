@@ -13,6 +13,7 @@ import { HillsParkComponent } from './componentes/hills-park/hills-park.componen
 import { EmaarComponent } from './componentes/emaar/emaar.component';
 import { PorqueComponent } from './components/porque/porque.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BotonesComponent } from './components/botones/botones.component';
 
 
 
@@ -31,6 +32,7 @@ import { FooterComponent } from './components/footer/footer.component';
     EmaarComponent,
     PorqueComponent,
     FooterComponent,
+    BotonesComponent,
   ],
   imports: [
     CommonModule

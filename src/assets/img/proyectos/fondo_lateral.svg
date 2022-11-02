@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 297.15 1637.33">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        stroke-width: .4px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3, .cls-5 {
+        stroke: #85754e;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-7 {
+        opacity: .6;
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-3" d="M-150.63,748.65V-59.51s-1408.06,0-1408.06,0c115.15,471.25,524.3,812.66,1031.02,812.66l377.04-4.51Z"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="cls-3" points="-547.64 768.09 -1589.44 747.8 -1589.44 -293.99 -547.65 -293.99 -547.64 768.09"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-4" x="0" y="0" width="297.15" height="1637.33" transform="translate(297.15 1637.33) rotate(-180)"/>
+    </clipPath>
+  </defs>
+  <g class="cls-7">
+    <g class="cls-6">
+      <g>
+        <g class="cls-2">
+          <g>
+            <path class="cls-3" d="M494.15-294c0-575.37-466.43-1041.79-1041.8-1041.79-575.37,0-1041.79,466.43-1041.79,1041.8S-1123.01,765.95-547.64,765.95c575.37,0,1041.79-484.58,1041.79-1059.94Z"/>
+            <circle class="cls-3" cx="-547.65" cy="-293.99" r="865.85" transform="translate(47.48 -473.35) rotate(-45)"/>
+            <circle class="cls-3" cx="-547.65" cy="-293.99" r="692.83" transform="translate(47.48 -473.35) rotate(-45)"/>
+          </g>
+        </g>
+        <polygon class="cls-3" points="-547.64 768.09 -1589.44 747.8 -1589.44 -293.99 -547.65 -293.99 -547.64 768.09"/>
+      </g>
+    </g>
+    <path class="cls-3" d="M-150.63,748.65V-59.51s-1408.06,0-1408.06,0c115.15,471.25,524.3,812.66,1031.02,812.66l377.04-4.51Z"/>
+  </g>
+  <g class="cls-1">
+    <g>
+      <g>
+        <polygon class="cls-5" points="139.93 1186.49 139.93 574.51 481.61 916.19 481.61 1186.49 139.93 1186.49"/>
+        <rect class="cls-5" x="189.97" y="890.88" width="241.6" height="241.6" transform="translate(-184.86 1946.79) rotate(-135)"/>
+        <circle class="cls-5" cx="310.77" cy="800.62" r="39.83"/>
+        <circle class="cls-5" cx="310.77" cy="515.71" r="111.47"/>
+        <path class="cls-5" d="M141.21,586.55v-68.78c0-93.65,75.92-169.56,169.56-169.56,93.65,0,169.56,75.92,169.56,169.56v398.88s198.25,190.35,198.25,190.35"/>
+        <line class="cls-5" x1="480.33" y1="517.77" x2="141.21" y2="517.77"/>
+        <line class="cls-5" x1="273.71" y1="350.95" x2="273.71" y2="517.77"/>
+        <polyline class="cls-5" points="310.77 348.21 184 226.06 114 226.06"/>
+        <circle class="cls-5" cx="341.28" cy="178.88" r="77.37"/>
+        <polyline class="cls-5" points="501.91 43.03 501.91 175.28 263.91 175.28"/>
+        <polyline class="cls-5" points="184 43.03 615.61 43.03 503.97 -73.52"/>
+        <line class="cls-5" x1="263.91" y1="-107.1" x2="263.91" y2="175.28"/>
+        <line class="cls-5" x1="184" y1="-99.57" x2="184" y2="226.06"/>
+        <line class="cls-5" x1="184" y1="141.18" x2="53.17" y2="141.18"/>
+        <polygon class="cls-5" points="21 141.16 37.08 157.27 53.19 141.16 37.12 125.05 21 141.16"/>
+        <line class="cls-5" x1="279.43" y1="622.69" x2="279.43" y2="714.01"/>
+      </g>
+      <g>
+        <polygon class="cls-5" points="243.46 1488.05 319.15 1562.52 167.78 1562.52 243.46 1488.05"/>
+        <polygon class="cls-5" points="243.46 1637 167.78 1562.52 319.15 1562.52 243.46 1637"/>
+        <path class="cls-5" d="M151.74,1511.82v276.69c0,49.63,40.23,89.86,89.86,89.86h96.71"/>
+        <path class="cls-5" d="M193.31,1537.4c-46.25-16.69-79.31-60.97-79.31-112.97,0-66.31,53.75-120.06,120.06-120.06h9.41"/>
+        <path class="cls-5" d="M240.11,1637.01c76.05,0,137.7-61.65,137.7-137.69,0-75.07-60.08-136.11-134.78-137.67"/>
+        <line class="cls-5" x1="243.46" y1="1186.49" x2="243.46" y2="1488.05"/>
+        <line class="cls-5" x1="293.6" y1="1186.49" x2="293.6" y2="1372.39"/>
+        <polygon class="cls-5" points="194.02 1686.5 243.4 1735.99 292.9 1686.5 243.52 1637.01 194.02 1686.5"/>
+        <line class="cls-5" x1="292.9" y1="1630.13" x2="292.9" y2="1777.75"/>
+      </g>
+    </g>
+  </g>
+</svg>

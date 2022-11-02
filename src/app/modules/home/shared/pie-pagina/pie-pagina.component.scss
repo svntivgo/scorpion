@@ -1,0 +1,11 @@
+@import '../../../../styles/variables';
+
+footer {
+  width: 100%;
+  background: $azul;
+  padding: 1rem 2rem;
+  p {
+    text-align: center;
+    color: $crema;
+  }
+}
