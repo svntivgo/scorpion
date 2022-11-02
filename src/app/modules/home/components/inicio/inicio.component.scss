@@ -51,7 +51,7 @@
         animation: slide 0.7s 3.1s forwards, fullscreen 0s 0s forwards;
         background: url(../../../../../assets/img/banner.jpg);
         background-size: cover;
-        color: #25344F;
+        color: #25344f;
         img {
           &.inicio__ondas-doradas {
             width: 15vw;
@@ -67,9 +67,12 @@
           }
           &.inicio__logo {
             width: 25vw;
-            position: relative;
-            top: 10vh;
-            right: 25vw;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: logo 1s 5.3s forwards;
           }
           &.inicio__flechas {
             width: 10vw;
@@ -100,7 +103,7 @@
             &.info {
               max-width: 180px;
               margin: 0 10px;
-              border-left: 1px #897E5E solid;
+              border-left: 1px #897e5e solid;
               &:first-child {
                 border-left: 0px;
               }
@@ -130,8 +133,7 @@
 }
 
 @keyframes fullscreen {
-  from {
-  }
+  from {}
   to {
     height: 100vh;
     width: 100%;
@@ -142,7 +144,18 @@
   from {
   }
   to {
-    color: #25344F;
+    color: #25344f;
+  }
+}
+
+@keyframes logo {
+  from {
+  }
+  to {
+    position: absolute;
+    top: 10vh;
+    left: 15vw;
+    transform: translate(0, 0);
   }
 }
 
@@ -152,7 +165,7 @@
       .inicio__slide {
         &.cuatro {
           img {
-            &.inicio__ondas-doradas{
+            &.inicio__ondas-doradas {
               width: 33vw;
             }
             &.inicio__ondas-azules {
