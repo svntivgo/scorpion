@@ -261,6 +261,13 @@
           left: -22vw;
           z-index: 3;
         }
+        .puntos-escuadra {
+          width: 13vw;
+          position: relative;
+          top: 29vw;
+          left: 27vw;
+          z-index: 1;
+        }
       }
     }
   }
@@ -356,6 +363,13 @@
             top: 56vw;
             left: -56vw;
             z-index: 3;
+          }
+          .puntos-escuadra {
+            width: 26vw;
+            position: relative;
+            top: 58vw;
+            left: 27vw;
+            z-index: 1;
           }
         }
         .resumen-productos__tarjeta-texto {
