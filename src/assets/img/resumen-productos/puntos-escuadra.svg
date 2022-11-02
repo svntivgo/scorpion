@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274.37 230.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #85754e;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="268.98" cy="5.39" r="5.39"/>
+    <circle class="cls-1" cx="268.98" cy="36.79" r="5.39"/>
+    <circle class="cls-1" cx="268.98" cy="68.18" r="5.39"/>
+    <circle class="cls-1" cx="268.98" cy="99.58" r="5.39"/>
+    <circle class="cls-1" cx="268.98" cy="130.98" r="5.39"/>
+    <circle class="cls-1" cx="268.98" cy="162.37" r="5.39"/>
+    <circle class="cls-1" cx="268.98" cy="193.77" r="5.39"/>
+    <circle class="cls-1" cx="268.98" cy="225.17" r="5.39"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="236.03" cy="36.79" r="5.39"/>
+    <circle class="cls-1" cx="236.03" cy="68.18" r="5.39"/>
+    <circle class="cls-1" cx="236.03" cy="99.58" r="5.39"/>
+    <circle class="cls-1" cx="236.03" cy="130.98" r="5.39"/>
+    <circle class="cls-1" cx="236.03" cy="162.37" r="5.39"/>
+    <circle class="cls-1" cx="236.03" cy="193.77" r="5.39"/>
+    <circle class="cls-1" cx="236.03" cy="225.17" r="5.39"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="203.09" cy="68.18" r="5.39"/>
+    <circle class="cls-1" cx="203.09" cy="99.58" r="5.39"/>
+    <circle class="cls-1" cx="203.09" cy="130.98" r="5.39"/>
+    <circle class="cls-1" cx="203.09" cy="162.37" r="5.39"/>
+    <circle class="cls-1" cx="203.09" cy="193.77" r="5.39"/>
+    <circle class="cls-1" cx="203.09" cy="225.17" r="5.39"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="170.14" cy="99.58" r="5.39"/>
+    <circle class="cls-1" cx="170.14" cy="130.98" r="5.39"/>
+    <circle class="cls-1" cx="170.14" cy="162.37" r="5.39"/>
+    <circle class="cls-1" cx="170.14" cy="193.77" r="5.39"/>
+    <circle class="cls-1" cx="170.14" cy="225.17" r="5.39"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="137.19" cy="130.98" r="5.39"/>
+    <circle class="cls-1" cx="137.19" cy="162.37" r="5.39"/>
+    <circle class="cls-1" cx="137.19" cy="193.77" r="5.39"/>
+    <circle class="cls-1" cx="137.19" cy="225.17" r="5.39"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="104.24" cy="162.37" r="5.39"/>
+    <circle class="cls-1" cx="104.24" cy="193.77" r="5.39"/>
+    <circle class="cls-1" cx="104.24" cy="225.17" r="5.39"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="71.29" cy="193.77" r="5.39"/>
+    <circle class="cls-1" cx="71.29" cy="225.17" r="5.39"/>
+  </g>
+  <circle class="cls-1" cx="38.34" cy="225.17" r="5.39"/>
+  <circle class="cls-1" cx="5.39" cy="225.17" r="5.39"/>
+</svg>
