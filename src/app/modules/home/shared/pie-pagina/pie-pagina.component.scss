@@ -4,6 +4,8 @@ footer {
   width: 100%;
   background: $azul;
   padding: 1rem 2rem;
+  position: relative;
+  z-index: 99;
   p {
     text-align: center;
     color: $crema;

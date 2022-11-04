@@ -2,7 +2,9 @@
 .inicio {
   width: 100%;
   height: 100vh;
+  position: relative;
   background: $azul;
+  z-index: 99;
   .inicio__slider {
     animation-delay: 3.8s;
     animation-duration: 1.5s;
