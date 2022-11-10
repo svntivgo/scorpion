@@ -32,30 +32,32 @@
         }
       }
       .propiedad__imagen {
-        width: 40vw;
-        height: 40vw;
+        width: 25vw;
+        height: 25vw;
         position: absolute;
-        right: 50px;
-        top: 20vh;
+        right: 0px;
+        top: 25vh;
         opacity: 0;
         transition: opacity 2s ease-in-out;
         &.raya {
-          background: url(../../../../../assets/RAYA.jpg);
+          background: url(../../../../../assets/img/proyectos/raya_menu.png);
           background-size: contain;
           background-repeat: no-repeat;
+          filter: grayscale(1);
         }
         &.urbana {
-          background: url(../../../../../assets/urbana.jpg);
+          background: url(../../../../../assets/img/proyectos/urbana_menu.png);
           background-size: contain;
           background-repeat: no-repeat;
         }
         &.orania {
-          background: url(../../../../../assets/orania.jpg);
+          background: url(../../../../../assets/img/proyectos/orania_menu.png);
           background-size: contain;
           background-repeat: no-repeat;
+          filter: grayscale(1);
         }
         &.hills {
-          background: url(../../../../../assets/hills.jpg);
+          background: url(../../../../../assets/img/proyectos/hills_menu.png);
           background-size: contain;
           background-repeat: no-repeat;
         }
@@ -100,6 +102,9 @@
       li {
         p {
           display: none;
+        }
+        h2 {
+          font-size: 3rem;
         }
         img {
           width: 50px;
