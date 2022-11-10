@@ -71,9 +71,10 @@
             width: 25vw;
 
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            top: 100%;
+            left: 15vw;
+            // left: 50%;
+            // transform: translate(-50%, -50%);
             animation: logo 1s 5.3s forwards;
           }
           &.inicio__flechas {
