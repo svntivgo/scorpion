@@ -161,6 +161,14 @@
   }
 }
 
+@keyframes logomovil {
+  from {
+  }
+  to {
+    top: 30vh;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .inicio {
     .inicio__slider {
@@ -176,7 +184,7 @@
             &.inicio__logo {
               width: 50vw;
               top: 15vh;
-              right: 0;
+              animation: logomovil 1s 5.3s forwards;
             }
             &.inicio__flechas {
               width: 20vw;
