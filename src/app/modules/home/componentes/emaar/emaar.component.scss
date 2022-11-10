@@ -1,0 +1,165 @@
+@import "../../../../styles/variables";
+@font-face {
+    font-family: Poppins;
+    src: url(../../../../../assets/fonts/Poppins-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: Apollo;
+    src: url(../../../../../assets/fonts/APOLLO.otf) format("opentype");
+  }
+
+  .emaar{
+    display: flex;
+    background: $crema;
+    .emaar__columna {
+      width: 10%;
+      &.izquierda {
+        background: url(../../../../../assets/img/textura_porque.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.derecha {
+        background: url(../../../../../assets/img/textura_porque.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        transform: scaleX(-1);
+      }
+      &.medio {
+        padding: 7vh 0;
+        width: 60%;
+        margin: 0 auto;
+        
+        img{
+            width: 35%;
+            margin-top: 7vh;
+            margin-left: 40vh;
+            margin-bottom: 3vh;
+        }
+        h2 {
+          font-size: 1.5rem;
+          text-align: center;
+          color: $dorado;
+          font-family: Poppins;
+          &.titulo-color {
+            color: $dorado;
+            margin-bottom: 7vh;
+          }
+          strong{
+            &.azul{
+                color: $azul;
+            }
+          }
+        }
+        p {
+          color: $dorado;
+          text-align: justify;
+          span {
+            font-weight: 600;
+            color: $azul;
+          }
+        }
+  
+        .porque__tarjeta {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 5vh 0;
+          border-bottom: 1px $dorado solid;
+          p {
+            width: 45%;
+          }
+          img {
+            width: 10%;
+            padding: 0 4%;
+          }
+          .porque__tarjeta-titulo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 45%;
+            p {
+              width: 100%;
+              letter-spacing: 3px;
+              color: $dorado;
+              text-align: justify;
+            }
+            h2 {
+              text-align: left;
+              width: 100%;
+              color: $azul;
+              font-size: 2.5rem;
+            }
+          }
+          &.dos, &.cuatro {
+            flex-direction: row-reverse;
+          }
+          &.tres {
+            .porque__tarjeta-titulo {
+              flex-direction: column-reverse;
+            }
+          }
+          &.cuatro {
+            border: none;
+          }
+        }
+
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+                transform: translateY(100);
+            }
+            100%{
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .ocultar{
+            opacity: 0;
+        }
+        .animar{
+            animation: aparecer 1.3s;
+        }
+
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .porque {
+      padding-top: 50px;
+      .porque__columna{
+        width: 0;
+        &.medio {
+          width: 80%;
+          padding: 0;
+          h2 {
+            font-size: 2rem;
+            text-align: left;
+          }
+          .porque__tarjeta {
+            padding: 50px 0;
+            flex-direction: column-reverse;
+            p {
+              width: 100%;
+            }
+            img {
+              margin: 25px 0;
+            }
+            .porque__tarjeta-titulo {
+              width: 100%;
+              text-align: center;
+              h2 {
+                font-size: 1.5rem;
+              }
+            }
+            &.dos, &.cuatro {
+              flex-direction: column-reverse;
+            }
+          }
+        }
+      }
+    }
+  }
+  
