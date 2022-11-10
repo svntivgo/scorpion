@@ -135,15 +135,15 @@
           }
         }
       }
-      &.raya,
+      &.urbana,
       &.orania,
       &.hills {
         padding: 150px 0;
         background: white;
       }
 
-      &.hills,
-      &.orania {
+      &.urbana,
+      &.hills {
         flex-direction: row-reverse;
       }
       .resumen-productos__imagen {
