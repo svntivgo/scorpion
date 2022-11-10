@@ -4,10 +4,6 @@
     src: url(../../../../../assets/fonts/Poppins-Regular.ttf) format("truetype");
   }
 
-  @font-face {
-    font-family: Apollo;
-    src: url(../../../../../assets/fonts/APOLLO.otf) format("opentype");
-  }
 
   .emaar{
     display: flex;
@@ -51,22 +47,52 @@
                 color: $azul;
             }
           }
-        }
-        p {
-          color: $dorado;
-          text-align: justify;
-          span {
+        } 
+        .emaar__cuadro{
+          h2{
+            color:$azul;
+            font-size: 4rem;
             font-weight: 600;
-            color: $azul;
           }
-        }
-  
-        .porque__tarjeta {
+          &.izquierda{
+            margin-left: -88vh;
+            p{
+              margin-left: 86vh;
+              color: $gris;
+              font-size: 1rem;
+              text-align: left;
+              width: 50%;
+            }
+          }
+          &.centro{
+            margin-top: -19vh;
+            margin-left: 4vh;
+            p{
+              color: $gris;
+              font-size: 1rem;
+              text-align: left;
+              width: 70%;
+              margin-left: 38vh;
+            }
+          }
+          
+          &.derecha{
+            margin-top: -19.3vh;
+            margin-left: 87vh;
+            p{
+              text-align: left;
+              color: $gris;
+              width: 100%;
+              margin-left: 0vh;
+            }
+          }
+        } 
+        .emaar__tarjeta {
           display: flex;
           justify-content: space-between;
           align-items: center;
           padding: 5vh 0;
-          border-bottom: 1px $dorado solid;
+          
           p {
             width: 45%;
           }
@@ -74,53 +100,62 @@
             width: 10%;
             padding: 0 4%;
           }
-          .porque__tarjeta-titulo {
+          .emaar__tarjeta-numero {
             display: flex;
             flex-direction: column;
             justify-content: center;
             width: 45%;
+            
             p {
+              margin-left: 15vh;
+              font-weight: 800;
               width: 100%;
+              font-size: 4rem;
               letter-spacing: 3px;
-              color: $dorado;
-              text-align: justify;
-            }
-            h2 {
-              text-align: left;
-              width: 100%;
               color: $azul;
-              font-size: 2.5rem;
+              text-align: center;
+              &.letra__pequena{
+              margin-left: 35vh;
+              text-align: left;
+              width: 50%;
+              color: $gris;
+              font-size: 0.8rem;
+              }
+            }
+            
+          }
+          &.derecha {
+            margin-top: -27.9vh;
+            margin-left: 40vh;
+            .emaar__tarjeta-numero {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              width: 45%;
+              
+              p {
+                margin-left: 15vh;
+                font-weight: 800;
+                width: 100%;
+                font-size: 4rem;
+                letter-spacing: 3px;
+                color: $azul;
+                text-align: center;
+                &.letra__pequena{
+                margin-left: 27vh;
+                text-align: left;
+                width: 70%;
+                color: $gris;
+                font-size: 0.8rem;
+                }
+              }
+              
             }
           }
-          &.dos, &.cuatro {
-            flex-direction: row-reverse;
-          }
-          &.tres {
-            .porque__tarjeta-titulo {
-              flex-direction: column-reverse;
-            }
-          }
-          &.cuatro {
-            border: none;
-          }
+          
         }
 
-        @keyframes aparecer {
-            0% {
-                opacity: 0;
-                transform: translateY(100);
-            }
-            100%{
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        .ocultar{
-            opacity: 0;
-        }
-        .animar{
-            animation: aparecer 1.3s;
-        }
+        
 
       }
     }
@@ -162,4 +197,4 @@
       }
     }
   }
-  
+ 
