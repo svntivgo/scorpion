@@ -40,20 +40,38 @@
         flex-direction: column;
         align-items: flex-start;
         margin: 0 auto;
-        img {
-          &.logo {
-            margin: 50px auto;
-            &.raya {
-              width: 200px;
+        .resumen-productos__logo {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &.urbana,
+          &.hills {
+            img {
+              &.soldout {
+                display: none;
+              }
             }
-            &.urbana {
-              width: 300px;
+          }
+          img {
+            &.soldout {
+              width: 80px;
+              margin-right: 15px;
             }
-            &.orania {
-              width: 300px;
-            }
-            &.hills {
-              width: 300px;
+            &.logo {
+              margin: 50px 0;
+              &.raya {
+                width: 200px;
+              }
+              &.urbana {
+                width: 300px;
+              }
+              &.orania {
+                width: 300px;
+              }
+              &.hills {
+                width: 300px;
+              }
             }
           }
         }
@@ -397,13 +415,17 @@
         &.orania {
           .resumen-productos__tarjeta-texto {
             align-items: center;
-          }
-          img {
-            &.logo__orania {
-              position: unset;
-            }
-            &.logo__raya {
-              position: unset;
+            .resumen-productos__logo {
+              img {
+                &.soldout {
+                  width: 40px;
+                }
+                &.logo.orania {
+                  width: 60vw;
+                }
+                &.logo__raya {
+                }
+              }
             }
           }
         }
@@ -412,7 +434,8 @@
           flex-direction: column-reverse;
           text-align: center;
         }
-        &.raya,&.hills {
+        &.raya,
+        &.hills {
           .resumen-productos__tarjeta-texto {
             border: 0px;
           }
