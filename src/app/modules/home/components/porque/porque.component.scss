@@ -82,13 +82,14 @@
           flex-direction: row-reverse;
         }
         &.tres {
+          border: none;
           .porque__tarjeta-titulo {
             flex-direction: column-reverse;
           }
         }
-        &.cuatro {
-          border: none;
-        }
+        // &.cuatro {
+        //   border: none;
+        // }
       }
     }
   }
