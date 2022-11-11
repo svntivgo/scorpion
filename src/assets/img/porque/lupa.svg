@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.46 94.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #85754e;
+        stroke-miterlimit: 10;
+        stroke-width: 1.3px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x=".65" y="36.21" width="16.38" height="57.23"/>
+  <rect class="cls-2" x="28.83" y="16.98" width="16.38" height="76.45"/>
+  <rect class="cls-2" x="57.01" y="36.21" width="16.38" height="57.23"/>
+  <rect class="cls-2" x="85.18" y="56.13" width="16.38" height="37.3"/>
+  <rect class="cls-1" x="114.52" y="43.99" width="9.33" height="20.01" transform="translate(-1.49 104.59) rotate(-47.12)"/>
+  <path class="cls-1" d="M93.38,0c-17.22,0-31.18,13.96-31.18,31.18s13.96,31.18,31.18,31.18,31.18-13.96,31.18-31.18S110.6,0,93.38,0Zm0,53.08c-12.09,0-21.9-9.8-21.9-21.9s9.8-21.9,21.9-21.9,21.9,9.8,21.9,21.9-9.8,21.9-21.9,21.9Z"/>
+  <rect class="cls-1" x="116.14" y="61.05" width="38.16" height="15.67" transform="translate(83.01 -73.61) rotate(42.88)"/>
+</svg>

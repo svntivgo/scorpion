@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.18 107.61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #85754e;
+        stroke-width: 1.3px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="8.23" y="9.29" width="101.47" height="65.05"/>
+  <rect class="cls-1" x=".65" y="41.73" width="50.49" height="65.22"/>
+  <rect class="cls-1" x="90.2" y="68.79" width="19.5" height="38.16"/>
+  <rect class="cls-1" x="32.92" y="62.94" width="76.78" height="11.89"/>
+  <rect class="cls-1" x="63.48" y=".65" width="7.19" height="47.45"/>
+  <rect class="cls-1" x="76.82" y=".65" width="7.19" height="47.45"/>
+  <rect class="cls-1" x="90.17" y=".65" width="7.19" height="47.45"/>
+  <rect class="cls-1" x="103.54" y=".65" width="7.19" height="47.45"/>
+  <rect class="cls-1" x="14.15" y="81.49" width="18.77" height="25.47"/>
+  <polygon class="cls-2" points="134.27 61.99 134.27 43.29 122.99 43.29 143.83 22.45 163.53 43.29 153.56 43.29 153.56 61.99 134.27 61.99"/>
+</svg>

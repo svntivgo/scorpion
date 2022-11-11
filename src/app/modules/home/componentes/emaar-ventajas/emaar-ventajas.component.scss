@@ -1,66 +1,550 @@
 @import "../../../../styles/variables";
+
 .ventajas {
-  display: flex;
   .ventajas__columna {
-    width: 80%;
-    padding: 7vh 0;
+    display: flex;
+    margin-left: 10%;
+    border-bottom: 1px $dorado solid;
     &.medio {
-      margin-left: 10%;
+      width: 80%;
       border-bottom: 1px $dorado solid;
-     margin-bottom: 70%;
-      justify-content: space-between;
-      img {
-        &.rombo {
-          width: 10%;
-          padding: 0 4%;
-          margin-bottom: -5.6%;
-          margin-left: 40%;
-        }
-      }
       h2 {
-        color: $azul;
-        font-size: 3rem;
+        width: fit-content;
+        padding-top: 150px;
+        font-size: 3.2rem;
         text-align: center;
+        color: $azul;
+        margin: 0 auto;
+        letter-spacing: 0.8rem;
         span {
           color: $dorado;
         }
       }
+      img {
+        &.rombo {
+          position: absolute;
+          width: 10%;
+          padding: 0 4%;
+          margin-top: 17.8%;
+          margin-left: 30%;
+        }
+      }
     }
+    
   }
-  .ventajas__contenedor {
-    justify-content: space-between;
-    .ventajas__tarjeta {
-      width: 100%;
-      height: 120vh;
+  .ventajas__contenedor{
+    display: flex;
+    
+    .ventajas__tarjeta{
       display: flex;
-      align-items: center;
-      &.primera {
-        display: flex;
-        width: 50%;
-        margin-left: -630%;
-        img{
-          &.sol{
-            margin-left: 30%;
+      width: 100%;
+      &.primera{
+        width: 100%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 8%;
+        .ventajas__foto{
+          display: flex;
+    
+          &.primera{
+            img{
+              margin-top: -35%;
+              margin-left: 51%;
+              position: absolute;
+              width: 40vw;
+              
+            }
           }
         }
-        p {
-          width: 100%;
-          &.numero {
+        p{
+          
+          &.numero{
             color: $azul;
-            text-align: left;
             font-size: 4rem;
-            font-weight: 900;
+            margin-top: 10%;
           }
           &.titulo{
-            width: 100%;
-            margin-top: 300%;
-            margin-left: -200%;
-            font-size: 1rem;
             color: $dorado;
-            font-size: 2rem;
+            font-size: 4rem;
+            letter-spacing: 1rem;
+            font-family: Apollo;
+          }
+          &.texto{
+            margin-top: 5%;
+            width: 50%;
+            color: $gris;
+            font-size: 1.5rem;
+          }
+        }
+        img{
+          &.sol{
+            position: absolute;
+            width: 5%;
+            margin-left: 1%;
           }
         }
       }
+      
+    }
+  }
+  .ventajas__contenedor__dos{
+    display: flex;
+    
+    .ventajas__tarjeta{
+      display: flex;
+      width: 100%;
+      &.segunda{
+        width: 100%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 8%;
+        .ventajas__foto{
+          display: flex;
+    
+          &.segunda{
+            img{
+              margin-top: -47%;
+              margin-left: -8%;
+              width: 40vw;
+            }
+          }
+        }
+        p{
+          
+          &.numero{
+            color: $azul;
+            font-size: 4rem;
+            margin-left: 45%;
+            margin-top: 10%;
+          }
+          &.titulo{
+            color: $dorado;
+            font-size: 4rem;
+            margin-left: 45%;
+            letter-spacing: 1rem;
+            font-family: Apollo;
+          }
+          &.texto{
+            margin-top: 5%;
+            margin-left: 45%;
+            width: 50%;
+            color: $gris;
+            font-size: 1.5rem;
+          }
+        }
+        img{
+          &.sol{
+            position: absolute;
+            width: 5%;
+            margin-left: 1%;
+          }
+        }
+      }
+      
+    }
+  }
+  .ventajas__contenedor__tres{
+    display: flex;
+    
+    .ventajas__tarjeta{
+      display: flex;
+      width: 100%;
+      &.primera{
+        width: 100%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 8%;
+        .ventajas__foto{
+          display: flex;
+    
+          &.primera{
+            img{
+              margin-top: -35%;
+              margin-left: 51%;
+              position: absolute;
+              width: 40vw;
+              
+            }
+          }
+        }
+        p{
+          
+          &.numero{
+            color: $azul;
+            font-size: 4rem;
+            margin-top: 5%;
+            font-weight: 900;
+          }
+          &.titulo{
+            color: $dorado;
+            width: 40%;
+            font-size: 4rem;
+            letter-spacing: 1rem;
+            font-family: Apollo;
+          }
+          &.texto{
+            
+            width: 50%;
+            color: $gris;
+            font-size: 1.5rem;
+          }
+        }
+        img{
+          &.sol{
+            position: absolute;
+            margin-top: 1%;
+            width: 7%;
+            margin-left: 1%;
+          }
+        }
+      }
+      
+    }
+  }
+  .ventajas__contenedor__cuatro{
+    display: flex;
+    
+    .ventajas__tarjeta{
+      display: flex;
+      width: 100%;
+      &.segunda{
+        width: 100%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 8%;
+        .ventajas__foto{
+          display: flex;
+    
+          &.segunda{
+            img{
+              margin-top: -44%;
+              margin-left: -8%;
+              width: 40vw;
+            }
+          }
+        }
+        p{
+          
+          &.numero{
+            color: $azul;
+            font-size: 4rem;
+            margin-left: 45%;
+            margin-top: 14%;
+          }
+          &.titulo{
+            color: $dorado;
+            font-size: 4rem;
+            margin-left: 45%;
+            letter-spacing: 1rem;
+            font-family: Apollo;
+          }
+          &.texto{
+            margin-top: 5%;
+            margin-left: 45%;
+            width: 50%;
+            color: $gris;
+            font-size: 1.5rem;
+          }
+        }
+        img{
+          &.sol{
+            position: absolute;
+            width: 5%;
+            margin-left: 1%;
+          }
+        }
+      }
+      
+    }
+  }
+  .ventajas__contenedor__cinco{
+    display: flex;
+    
+    .ventajas__tarjeta{
+      display: flex;
+      width: 100%;
+      &.primera{
+        width: 100%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 8%;
+        .ventajas__foto{
+          display: flex;
+    
+          &.primera{
+            img{
+              margin-top: -40%;
+              margin-left: 51%;
+              position: absolute;
+              width: 40vw;
+              
+            }
+          }
+        }
+        p{
+          
+          &.numero{
+            color: $azul;
+            font-size: 4rem;
+            margin-top: 5%;
+            font-weight: 900;
+          }
+          &.titulo{
+            color: $dorado;
+            width: 50%;
+            font-size: 4rem;
+            letter-spacing: 1rem;
+            font-family: Apollo;
+          }
+          &.texto{
+            
+            width: 50%;
+            color: $gris;
+            font-size: 1.5rem;
+          }
+        }
+        img{
+          &.sol{
+            position: absolute;
+            
+            width: 3.5%;
+            margin-left: 1%;
+          }
+        }
+      }
+      
+    }
+  }
+  .ventajas__contenedor__seis{
+    display: flex;
+    
+    .ventajas__tarjeta{
+      display: flex;
+      width: 100%;
+      &.segunda{
+        width: 100%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 8%;
+        .ventajas__foto{
+          display: flex;
+    
+          &.segunda{
+            img{
+              margin-top: -55%;
+              margin-left: -8%;
+              width: 40vw;
+            }
+          }
+        }
+        p{
+          
+          &.numero{
+            color: $azul;
+            font-size: 4rem;
+            margin-left: 45%;
+            margin-top: 4%;
+          }
+          &.titulo{
+            color: $dorado;
+            font-size: 4rem;
+            margin-left: 45%;
+            letter-spacing: 1rem;
+            font-family: Apollo;
+          }
+          &.texto{
+            margin-top: 5%;
+            margin-left: 45%;
+            width: 50%;
+            color: $gris;
+            font-size: 1.5rem;
+          }
+        }
+        img{
+          &.sol{
+            position: absolute;
+            width: 7%;
+            margin-left: 1%;
+          }
+        }
+      }
+      
+    }
+  }
+  .ventajas__contenedor__siete{
+    display: flex;
+    
+    .ventajas__tarjeta{
+      display: flex;
+      width: 100%;
+      &.primera{
+        width: 100%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 8%;
+        .ventajas__foto{
+          display: flex;
+    
+          &.primera{
+            img{
+              margin-top: -40%;
+              margin-left: 51%;
+              position: absolute;
+              width: 40vw;
+              
+            }
+          }
+        }
+        p{
+          
+          &.numero{
+            color: $azul;
+            font-size: 4rem;
+            margin-top: 5%;
+            font-weight: 900;
+          }
+          &.titulo{
+            color: $dorado;
+            width: 50%;
+            font-size: 4rem;
+            letter-spacing: 1rem;
+            font-family: Apollo;
+          }
+          &.texto{
+            
+            width: 50%;
+            color: $gris;
+            font-size: 1.5rem;
+          }
+        }
+        img{
+          &.sol{
+            position: absolute;
+            
+            width: 5%;
+            margin-left: 1%;
+          }
+        }
+      }
+      
+    }
+  }
+  .ventajas__contenedor__ocho{
+    display: flex;
+    
+    .ventajas__tarjeta{
+      display: flex;
+      width: 100%;
+      &.segunda{
+        width: 100%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 8%;
+        .ventajas__foto{
+          display: flex;
+    
+          &.segunda{
+            img{
+              margin-top: -52%;
+              margin-left: -8%;
+              width: 40vw;
+            }
+          }
+        }
+        p{
+          
+          &.numero{
+            color: $azul;
+            font-size: 4rem;
+            margin-left: 45%;
+            margin-top: 4%;
+            
+          }
+          &.titulo{
+            color: $dorado;
+            font-size: 4rem;
+            margin-left: 45%;
+            letter-spacing: 1rem;
+            font-family: Apollo;
+          }
+          &.texto{
+            margin-top: 5%;
+            margin-left: 45%;
+            width: 50%;
+            color: $gris;
+            font-size: 1.5rem;
+          }
+        }
+        img{
+          &.sol{
+            position: absolute;
+            width: 6%;
+            margin-left: 1%;
+          }
+        }
+      }
+      
+    }
+  }
+  .ventajas__contenedor__nueve{
+    display: flex;
+    
+    .ventajas__tarjeta{
+      display: flex;
+      width: 100%;
+      &.primera{
+        width: 100%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 8%;
+        .ventajas__foto{
+          display: flex;
+    
+          &.primera{
+            img{
+              margin-top: -68%;
+              margin-left: 56%;
+              padding-bottom: 40px;
+              width: 40vw;
+              
+              
+            }
+          }
+        }
+        p{
+          
+          &.numero{
+            color: $azul;
+            font-size: 4rem;
+            margin-top: 5%;
+            font-weight: 900;
+          }
+          &.titulo{
+            color: $dorado;
+            width: 50%;
+            font-size: 4rem;
+            letter-spacing: 1rem;
+            font-family: Apollo;
+          }
+          &.texto{
+            
+            width: 50%;
+            color: $gris;
+            font-size: 1.5rem;
+            padding-bottom: 10%;
+          }
+        }
+        img{
+          &.sol{
+            position: absolute;
+            
+            width: 7%;
+            margin-top: 0.5%;
+            margin-left: 1%;
+          }
+        }
+      }
+      
     }
   }
 }
