@@ -53,6 +53,7 @@
         animation: slide 0.7s 3.1s forwards, fullscreen 0s 0s forwards;
         background: url(../../../../../assets/img/banner.jpg);
         background-size: cover;
+        background-position: bottom;
         color: #25344f;
         img {
           &.inicio__ondas-doradas {
@@ -68,7 +69,7 @@
             right: 0;
           }
           &.inicio__logo {
-            width: 25vw;
+            width: 20vw;
 
             position: absolute;
             top: 100%;
@@ -156,7 +157,7 @@
   }
   to {
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     left: 15vw;
     transform: translate(0, 0);
   }
@@ -166,7 +167,7 @@
   from {
   }
   to {
-    top: 30vh;
+    top: 15vh;
   }
 }
 
@@ -184,7 +185,7 @@
             }
             &.inicio__logo {
               width: 50vw;
-              top: 15vh;
+              top: 0vh;
               left: unset;
               animation: logomovil 1s 5.3s forwards;
             }
