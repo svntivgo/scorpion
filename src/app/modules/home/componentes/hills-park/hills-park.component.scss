@@ -1,0 +1,382 @@
+@import "../../../../styles/variables";
+
+.banner {
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+.resumen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 100px 0;
+  padding: 0 0 0 50px;
+  .resumen__texto {
+    width: 35%;
+    margin-right: 50px;
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      text-align: justify;
+    }
+    .resumen__contenedor-tarjetas {
+      padding: 20px;
+      .resumen__tarjeta {
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid $azul;
+        padding: 35px 15px;
+        .resumen__icono {
+          min-width: 3.5rem;
+          height: 3.5rem;
+
+          &.mezquita {
+            background: url(../../../../../assets/img/proyectos/mezquita.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+          &.edificio {
+            background: url(../../../../../assets/img/proyectos/edificio.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+          &.caballo {
+            background: url(../../../../../assets/img/proyectos/caballo.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+          &.avion {
+            background: url(../../../../../assets/img/proyectos/avion.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+        }
+        h6 {
+          min-width: 130px;
+          text-align: center;
+          font-size: 3.5rem;
+          line-height: 3.3rem;
+          margin-block-start: 0em;
+          margin-block-end: 0em;
+          transform: translateY(0.2rem);
+          padding: 0 25px;
+          margin-left: 25px;
+          border-left: 1px solid $azul;
+        }
+        p {
+          margin-top: 0;
+          text-align: left;
+          font-size: 0.8rem;
+          color: $gris;
+          letter-spacing: 0.3rem;
+        }
+      }
+    }
+  }
+  .resumen__imagen {
+    width: 40vw;
+    margin-left: 50px;
+    margin-right: 3vw;
+    .resumen__imagen-marco {
+      width: 40vw;
+      height: 40vw;
+      border: 1px solid black;
+      position: absolute;
+    }
+    img {
+      width: 40vw;
+      position: relative;
+      transform: translate(3vw, 3vw);
+      z-index: 2;
+    }
+  }
+}
+.descripcion {
+  background: url(../../../../../assets/img/proyectos/fondo_descripcion.svg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: $crema;
+  padding: 50px 0;
+  .descripcion__contenedor {
+    display: flex;
+    justify-content: center;
+    .descripcion__info {
+      display: flex;
+      justify-content: center;
+      padding-right: 10vw;
+      .descripcion__imagen {
+        width: 40vw;
+        height: 40vw;
+        background: url(../../../../../assets/img/proyectos/raya_descripcion.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-right: 20px;
+        .escuadra {
+          width: 11vw;
+          position: relative;
+          top: 34vw;
+          left: 27vw;
+        }
+        .puntos {
+          width: 10vw;
+          position: relative;
+          top: 35vw;
+          left: -4vw;
+        }
+      }
+      .descripcion__texto {
+        width: 40%;
+        margin-left: 20px;
+        h2 {
+          font-size: 3rem;
+          letter-spacing: 0.6rem;
+          span {
+            color: $dorado;
+          }
+        }
+        p {
+          color: $gris;
+          text-align: justify;
+          font-size: 0.8rem;
+          letter-spacing: 0.1rem;
+        }
+        table {
+          margin-top: 15px;
+          border-spacing: 0px;
+          border: 1px solid $gris_tabla;
+          border-radius: 20px 0 20px 0;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 1rem;
+          thead {
+            background: $gris_tabla;
+            color: $dorado;
+            th {
+              padding: 15px 15px;
+            }
+            th:first-child {
+              border-radius: 20px 0 0px 0;
+            }
+          }
+          tbody {
+            tr {
+              td {
+                color: $dorado;
+                border-left: 1px solid $gris_tabla;
+                border-top: 1px solid $gris_tabla;
+                padding: 10px 10px;
+              }
+            }
+          }
+        }
+        form {
+          margin-top: 15px;
+          input {
+            width: 70%;
+            margin-top: 10px;
+            border-radius: 20px 0 0 0;
+            padding: 5px 25px;
+            border: 2px solid $dorado;
+            background: transparent;
+            color: $dorado;
+            letter-spacing: 0.3rem;
+            font-family: Poppins;
+          }
+          button {
+            border: unset;
+            background: $dorado;
+            color: $crema;
+            padding: 5px 25px;
+            border-radius: 0 0 20px 0;
+            border: 3px solid $dorado;
+            margin-right: 0;
+            margin-left: auto;
+            font-size: 0.8rem;
+            letter-spacing: 0.1rem;
+            transition: background-color 0.5s ease-in-out;
+            &:hover {
+              background-color: transparent;
+              color: $dorado;
+              border: 3px solid $dorado;
+            }
+          }
+        }
+      }
+    }
+    .descripcion__columna {
+      height: 200vh;
+      position: absolute;
+      right: 0;
+      transform: translateY(-50vh);
+    }
+  }
+  .descripcion__botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    a {
+      button {
+        width: auto;
+        margin: 50px 25px;
+        color: $dorado;
+        background-color: transparent;
+        border-radius: 30px 0 30px 0;
+        border: 1px solid $dorado;
+        padding: 15px 15px;
+        letter-spacing: 0.2rem;
+        transition: background-color 0.5s ease-in-out;
+        animation: vibracion 1.8s infinite;
+        &.asesor {
+          background-color: $azul;
+          color: white;
+          border: none;
+        }
+      }
+    }
+  }
+}
+.ubicacion {
+  img {
+    width: 100%;
+    position: relative;
+  }
+}
+
+@keyframes vibracion {
+  0% {
+    transform: scale(0.98);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(0.98);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    height: 50vh;
+    img {
+      width: auto;
+      height: 50vh;
+      transform: translateX(-28%);
+    }
+  }
+
+  .resumen {
+    margin: 50px 0px;
+    padding: 0 25px;
+    .resumen__texto {
+      width: 100%;
+      margin-right: 0px;
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        margin-top: 25px;
+      }
+      .resumen__contenedor-tarjetas {
+        padding: 0px;
+        .resumen__tarjeta {
+          padding: 35px 0px;
+          .resumen__icono {
+            min-width: 2rem;
+            height: 2rem;
+          }
+          h6 {
+            min-width: 80px;
+            font-size: 2rem;
+            line-height: 2rem;
+            transform: translateY(0.2rem);
+            padding: 0 15px;
+            margin-left: 15px;
+          }
+          p {
+            margin-top: 0;
+            font-size: 0.6rem;
+          }
+        }
+      }
+    }
+    .resumen__imagen {
+      display: none;
+    }
+  }
+
+  .descripcion {
+    background: none;
+    background-color: $crema;
+    .descripcion__contenedor {
+      display: flex;
+      justify-content: center;
+      .descripcion__info {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+        .descripcion__imagen {
+          width: 80vw;
+          height: 80vw;
+          margin-right: 0px;
+          position: relative;
+          top: 30vw;
+          .escuadra {
+            width: 22vw;
+            position: relative;
+            top: 68vw;
+            left: 54vw;
+          }
+          .puntos {
+            width: 20vw;
+            position: relative;
+            top: 70vw;
+            left: -8vw;
+          }
+        }
+        .descripcion__texto {
+          width: 80%;
+          margin-left: 0;
+          h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 110vw;
+            margin-top: -85vw;
+          }
+          table {
+            font-size: 0.6rem;
+          }
+          form {
+            margin-top: 25px;
+            input {
+              width: 50%;
+            }
+          }
+        }
+      }
+      .descripcion__columna {
+        display: none;
+      }
+    }
+    .descripcion__botones {
+      width: 100%;
+      margin-top: 25px;
+      a {
+        max-width: 80%;
+        button {
+          margin: 25px 0;
+        }
+      }
+    }
+  }
+}
