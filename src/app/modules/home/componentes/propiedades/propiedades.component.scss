@@ -8,88 +8,91 @@
     width: 50%;
     height: 100vh;
 
-    li {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding-left: 50px;
-      p {
-        color: $gris;
-        transition: color 0.8s ease-in-out;
-      }
-      img {
-        width: 80px;
-        margin-right: 30px;
-        margin-left: auto;
-      }
-      h2 {
-        width: 60%;
-        font-size: 4.5rem;
-        font-weight: 400;
-        position: relative;
-        &.raya, &.orania {
-          color: $gris_tabla;
-        }
-      }
-      .propiedad__imagen {
-        width: 25vw;
-        height: 25vw;
-        position: absolute;
-        right: 0px;
-        top: 25vh;
-        opacity: 0;
-        transition: opacity 2s ease-in-out;
-        &.raya {
-          background: url(../../../../../assets/img/proyectos/raya_menu.png);
-          background-size: contain;
-          background-repeat: no-repeat;
-          filter: grayscale(1);
-        }
-        &.urbana {
-          background: url(../../../../../assets/img/proyectos/urbana_menu.png);
-          background-size: contain;
-          background-repeat: no-repeat;
-        }
-        &.orania {
-          background: url(../../../../../assets/img/proyectos/orania_menu.png);
-          background-size: contain;
-          background-repeat: no-repeat;
-          filter: grayscale(1);
-        }
-        &.hills {
-          background: url(../../../../../assets/img/proyectos/hills_menu.png);
-          background-size: contain;
-          background-repeat: no-repeat;
-        }
-      }
-
-      h2::before {
-        content: attr(data-fill-text);
-        position: absolute;
-        height: 100%;
-        color: white;
-        overflow: hidden;
-        -webkit-text-stroke: 0.3px $dorado;
-        transition: height 0.8s ease-in-out;
-      }
-      h2.raya::before, h2.orania::before {
-        color: $gris_tabla;
-        -webkit-text-stroke: 0.3px $gris_tabla;
-      }
-
-      &:hover {
+    a {
+      text-decoration: none;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 50px;
         p {
-          color: $azul;
+          color: $gris;
+          transition: color 0.8s ease-in-out;
         }
-        h2::before {
-          height: 0%;
-          -webkit-text-stroke: 0.3px $azul;
+        img {
+          width: 80px;
+          margin-right: 30px;
+          margin-left: auto;
         }
-        h2.raya::before, h2.orania::before {
-          -webkit-text-stroke: 0.3px $gris_tabla;
+        h2 {
+          width: 60%;
+          font-size: 4.5rem;
+          font-weight: 400;
+          position: relative;
+          &.raya, &.orania {
+            color: $gris_tabla;
+          }
         }
         .propiedad__imagen {
-          opacity: 1;
+          width: 25vw;
+          height: 25vw;
+          position: absolute;
+          right: 0px;
+          top: 25vh;
+          opacity: 0;
+          transition: opacity 2s ease-in-out;
+          &.raya {
+            background: url(../../../../../assets/img/proyectos/raya_menu.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            filter: grayscale(1);
+          }
+          &.urbana {
+            background: url(../../../../../assets/img/proyectos/urbana_menu.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+          &.orania {
+            background: url(../../../../../assets/img/proyectos/orania_menu.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            filter: grayscale(1);
+          }
+          &.hills {
+            background: url(../../../../../assets/img/proyectos/hills_menu.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        }
+
+        h2::before {
+          content: attr(data-fill-text);
+          position: absolute;
+          height: 100%;
+          color: white;
+          overflow: hidden;
+          -webkit-text-stroke: 0.3px $dorado;
+          transition: height 0.8s ease-in-out;
+        }
+        h2.raya::before, h2.orania::before {
+          color: $gris_tabla;
+          -webkit-text-stroke: 0.3px $gris_tabla;
+        }
+
+        &:hover {
+          p {
+            color: $azul;
+          }
+          h2::before {
+            height: 0%;
+            -webkit-text-stroke: 0.3px $azul;
+          }
+          h2.raya::before, h2.orania::before {
+            -webkit-text-stroke: 0.3px $gris_tabla;
+          }
+          .propiedad__imagen {
+            opacity: 1;
+          }
         }
       }
     }
@@ -99,19 +102,23 @@
 @media screen and (max-width: 1024px) {
   .propiedades {
     ul {
-      li {
-        p {
-          display: none;
-        }
-        h2 {
-          font-size: 3rem;
-        }
-        img {
-          width: 50px;
-          margin-right: 15px;
-        }
-        .propiedad__imagen {
-          display: none;
+      width: 100%;
+      a {
+        li {
+          p {
+            display: none;
+          }
+          h2 {
+            width: 80%;
+            font-size: 2rem;
+          }
+          img {
+            width: 50px;
+            margin-right: 15px;
+          }
+          .propiedad__imagen {
+            display: none;
+          }
         }
       }
     }
