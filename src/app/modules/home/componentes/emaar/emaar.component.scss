@@ -48,42 +48,62 @@
             }
           }
         } 
+        p{
+          text-align: center;
+          color: $gris;
+          span{
+            color: $azul;
+          }
+          &.separado{
+            margin-top: 20vh;
+          }
+        }
         .emaar__cuadro{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 5vh 0;
           h2{
             color:$azul;
-            font-size: 4rem;
+            font-size: 3.5rem;
             font-weight: 600;
           }
           &.izquierda{
-            margin-left: -88vh;
+            display: inline-block;
+            width: 33%;
+             margin-left: -9.9%;
             p{
-              margin-left: 86vh;
+              
               color: $gris;
               font-size: 1rem;
               text-align: left;
-              width: 50%;
+              width: 100%;
             }
           }
           &.centro{
-            margin-top: -19vh;
-            margin-left: 4vh;
+            display: inline-block;
+            width: 33%;
+           margin-left: 5%;
+            
             p{
               color: $gris;
               font-size: 1rem;
               text-align: left;
-              width: 70%;
-              margin-left: 38vh;
+              width: 100%;
+              
             }
           }
           
           &.derecha{
-            margin-top: -19.3vh;
-            margin-left: 87vh;
+            display: inline-block;
+            width: 33%;
+            margin-left: 5%;
+            
             p{
               text-align: left;
               color: $gris;
-              width: 100%;
-              margin-left: 0vh;
+              width: 110%;
+             
             }
           }
         } 
@@ -102,6 +122,7 @@
           }
           .emaar__tarjeta-numero {
             display: flex;
+            margin-left: 20%;
             flex-direction: column;
             justify-content: center;
             width: 45%;
@@ -109,24 +130,29 @@
             p {
               margin-left: 15vh;
               font-weight: 800;
-              width: 100%;
+              width: 50%;
               font-size: 4rem;
               letter-spacing: 3px;
               color: $azul;
               text-align: center;
               &.letra__pequena{
-              margin-left: 35vh;
+              
               text-align: left;
-              width: 50%;
+              width:130%;
               color: $gris;
               font-size: 0.8rem;
               }
             }
             
           }
+          &.izquierda{
+            display: inline-block;
+            width: 50%;
+          }
           &.derecha {
-            margin-top: -27.9vh;
-            margin-left: 40vh;
+            width: 50%;
+            margin-left: -23%;
+            display: inline-block;
             .emaar__tarjeta-numero {
               display: flex;
               flex-direction: column;
@@ -134,17 +160,17 @@
               width: 45%;
               
               p {
-                margin-left: 15vh;
+                margin-left: 75%;
                 font-weight: 800;
                 width: 100%;
                 font-size: 4rem;
                 letter-spacing: 3px;
                 color: $azul;
-                text-align: center;
-                &.letra__pequena{
-                margin-left: 27vh;
                 text-align: left;
-                width: 70%;
+                &.letra__pequena{
+                
+                text-align: left;
+                width: 100%;
                 color: $gris;
                 font-size: 0.8rem;
                 }
@@ -162,9 +188,9 @@
   }
   
   @media screen and (max-width: 1024px) {
-    .porque {
+    .emaar {
       padding-top: 50px;
-      .porque__columna{
+      .emaar__columna{
         width: 0;
         &.medio {
           width: 80%;
@@ -173,7 +199,7 @@
             font-size: 2rem;
             text-align: left;
           }
-          .porque__tarjeta {
+          .emaar__tarjeta {
             padding: 50px 0;
             flex-direction: column-reverse;
             p {
@@ -182,7 +208,7 @@
             img {
               margin: 25px 0;
             }
-            .porque__tarjeta-titulo {
+            .emaar__tarjeta-numero {
               width: 100%;
               text-align: center;
               h2 {
