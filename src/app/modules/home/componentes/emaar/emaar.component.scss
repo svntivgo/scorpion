@@ -1,226 +1,266 @@
 @import "../../../../styles/variables";
 @font-face {
-    font-family: Poppins;
-    src: url(../../../../../assets/fonts/Poppins-Regular.ttf) format("truetype");
-  }
+  font-family: Poppins;
+  src: url(../../../../../assets/fonts/Poppins-Regular.ttf) format("truetype");
+}
 
+.emaar {
+  display: flex;
+  background: $crema;
+  .emaar__columna {
+    width: 10%;
+    &.izquierda {
+      background: url(../../../../../assets/img/textura_porque.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &.derecha {
+      background: url(../../../../../assets/img/textura_porque.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: left;
+      transform: scaleX(-1);
+    }
+    &.medio {
+      padding: 7vh 0;
+      width: 60%;
+      margin: 0 auto;
 
-  .emaar{
-    display: flex;
-    background: $crema;
-    .emaar__columna {
-      width: 10%;
-      &.izquierda {
-        background: url(../../../../../assets/img/textura_porque.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
+      img {
+        width: 35%;
+        margin-top: 7vh;
+        margin-left: 40vh;
+        margin-bottom: 3vh;
       }
-      &.derecha {
-        background: url(../../../../../assets/img/textura_porque.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: left;
-        transform: scaleX(-1);
-      }
-      &.medio {
-        padding: 7vh 0;
-        width: 60%;
-        margin: 0 auto;
-        
-        img{
-            width: 35%;
-            margin-top: 7vh;
-            margin-left: 40vh;
-            margin-bottom: 3vh;
-        }
-        h2 {
-          font-size: 1.5rem;
-          text-align: center;
+      h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: $dorado;
+        font-family: Poppins;
+        &.titulo-color {
           color: $dorado;
-          font-family: Poppins;
-          &.titulo-color {
-            color: $dorado;
-            margin-bottom: 7vh;
-          }
-          strong{
-            &.azul{
-                color: $azul;
-            }
-          }
-        } 
-        p{
-          text-align: center;
-          color: $gris;
-          span{
+          margin-bottom: 7vh;
+        }
+        strong {
+          &.azul {
             color: $azul;
           }
-          &.separado{
-            margin-top: 20vh;
+        }
+      }
+      p {
+        text-align: center;
+        color: $gris;
+        span {
+          color: $azul;
+        }
+        &.separado {
+          margin-top: 20vh;
+        }
+      }
+      .emaar__cuadro {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5vh 0;
+        h2 {
+          color: $azul;
+          font-size: 3.5rem;
+          font-weight: 600;
+        }
+        &.izquierda {
+          display: inline-block;
+          width: 33%;
+          margin-left: -9.9%;
+          p {
+            color: $gris;
+            font-size: 1rem;
+            text-align: left;
+            width: 100%;
           }
         }
-        .emaar__cuadro{
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 5vh 0;
-          h2{
-            color:$azul;
-            font-size: 3.5rem;
-            font-weight: 600;
-          }
-          &.izquierda{
-            display: inline-block;
-            width: 33%;
-             margin-left: -9.9%;
-            p{
-              
-              color: $gris;
-              font-size: 1rem;
-              text-align: left;
-              width: 100%;
-            }
-          }
-          &.centro{
-            display: inline-block;
-            width: 33%;
-           margin-left: 5%;
-            
-            p{
-              color: $gris;
-              font-size: 1rem;
-              text-align: left;
-              width: 100%;
-              
-            }
-          }
-          
-          &.derecha{
-            display: inline-block;
-            width: 33%;
-            margin-left: 5%;
-            
-            p{
-              text-align: left;
-              color: $gris;
-              width: 110%;
-             
-            }
-          }
-        } 
-        .emaar__tarjeta {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 5vh 0;
-          
+        &.centro {
+          display: inline-block;
+          width: 33%;
+          margin-left: 5%;
+
           p {
-            width: 45%;
+            color: $gris;
+            font-size: 1rem;
+            text-align: left;
+            width: 100%;
           }
-          img {
-            width: 10%;
-            padding: 0 4%;
+        }
+
+        &.derecha {
+          display: inline-block;
+          width: 33%;
+          margin-left: 5%;
+
+          p {
+            text-align: left;
+            color: $gris;
+            width: 110%;
           }
+        }
+      }
+      .emaar__tarjeta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5vh 0;
+
+        p {
+          width: 45%;
+        }
+        img {
+          width: 10%;
+          padding: 0 4%;
+        }
+        .emaar__tarjeta-numero {
+          display: flex;
+          margin-left: 20%;
+          flex-direction: column;
+          justify-content: center;
+          width: 45%;
+
+          p {
+            margin-left: 15vh;
+            font-weight: 800;
+            width: 50%;
+            font-size: 4rem;
+            letter-spacing: 3px;
+            color: $azul;
+            text-align: center;
+            &.letra__pequena {
+              text-align: left;
+              width: 130%;
+              color: $gris;
+              font-size: 0.8rem;
+            }
+          }
+        }
+        &.izquierda {
+          display: inline-block;
+          width: 50%;
+        }
+        &.derecha {
+          width: 50%;
+          margin-left: -23%;
+          display: inline-block;
           .emaar__tarjeta-numero {
             display: flex;
-            margin-left: 20%;
             flex-direction: column;
             justify-content: center;
             width: 45%;
-            
+
             p {
-              margin-left: 15vh;
+              margin-left: 75%;
               font-weight: 800;
-              width: 50%;
+              width: 100%;
               font-size: 4rem;
               letter-spacing: 3px;
               color: $azul;
-              text-align: center;
-              &.letra__pequena{
-              
               text-align: left;
-              width:130%;
-              color: $gris;
-              font-size: 0.8rem;
-              }
-            }
-            
-          }
-          &.izquierda{
-            display: inline-block;
-            width: 50%;
-          }
-          &.derecha {
-            width: 50%;
-            margin-left: -23%;
-            display: inline-block;
-            .emaar__tarjeta-numero {
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              width: 45%;
-              
-              p {
-                margin-left: 75%;
-                font-weight: 800;
-                width: 100%;
-                font-size: 4rem;
-                letter-spacing: 3px;
-                color: $azul;
-                text-align: left;
-                &.letra__pequena{
-                
+              &.letra__pequena {
                 text-align: left;
                 width: 100%;
                 color: $gris;
                 font-size: 0.8rem;
-                }
               }
-              
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .emaar {
+    padding-top: 50px;
+    .emaar__columna {
+      width: 0;
+      &.medio {
+        width: 50%;
+
+        padding: 0;
+        img {
+          margin-left: -10%;
+          width: 50vw;
+          top: 15vh;
+          left: unset;
+        }
+        h2 {
+          font-size: 1.5rem;
+          text-align: left;
+        }
+        p{
+          &.separado{
+            margin-bottom: 10vw;
           }
           
         }
-
-        
-
-      }
-    }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .emaar {
-      padding-top: 50px;
-      .emaar__columna{
-        width: 0;
-        &.medio {
-          width: 80%;
-          padding: 0;
-          h2 {
-            font-size: 2rem;
-            text-align: left;
+        .emaar__cuadro {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 5vh 0;
+          &.derecha {
+            display: block;
+            width: 100%;
+            margin-left: -10%;
+            p{
+              text-align: left;
+              width: 130%;
+            }
+            
           }
-          .emaar__tarjeta {
-            padding: 50px 0;
-            flex-direction: column-reverse;
-            p {
-              width: 100%;
+          &.centro{
+            display: block;
+            width: 100%;
+            margin-left: -10%;
+            p{
+              text-align: left;
+              width: 130%;
             }
-            img {
-              margin: 25px 0;
+          }
+          &.izquierda{
+            display: block;
+            width: 100%;
+            p{
+              text-align: left;
+              width: 130%;
             }
-            .emaar__tarjeta-numero {
-              width: 100%;
-              text-align: center;
-              h2 {
-                font-size: 1.5rem;
-              }
-            }
-            &.dos, &.cuatro {
-              flex-direction: column-reverse;
+          }
+        }
+        .emaar__tarjeta {
+          justify-content: space-between;
+          align-items: center;
+          padding: 5vh 0;
+
+          &.izquierda {
+            display: block;
+            margin-left: -30%;
+          }
+          &.derecha {
+            display: block;
+            margin-left: 4%;
+          }
+          p {
+            width: 100%;
+          }
+          img {
+            margin: 25px 0;
+          }
+          .emaar__tarjeta-numero {
+            width: 100%;
+            text-align: center;
+            h2 {
+              font-size: 1rem;
             }
           }
         }
       }
     }
   }
- 
+}

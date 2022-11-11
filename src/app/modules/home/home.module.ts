@@ -13,6 +13,8 @@ import { EmaarComponent } from './componentes/emaar/emaar.component';
 import { PorqueComponent } from './components/porque/porque.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BotonesComponent } from './components/botones/botones.component';
+import { PorqueEmaarComponent } from './porque-emaar/porque-emaar.component';
+import { EmaarVentajasComponent } from './componentes/emaar-ventajas/emaar-ventajas.component';
 
 
 
@@ -31,6 +33,8 @@ import { BotonesComponent } from './components/botones/botones.component';
     PorqueComponent,
     FooterComponent,
     BotonesComponent,
+    PorqueEmaarComponent,
+    EmaarVentajasComponent,
   ],
   imports: [
     CommonModule
