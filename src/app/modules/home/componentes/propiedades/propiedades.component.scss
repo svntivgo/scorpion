@@ -102,13 +102,15 @@
 @media screen and (max-width: 1024px) {
   .propiedades {
     ul {
+      width: 100%;
       a {
         li {
           p {
             display: none;
           }
           h2 {
-            font-size: 3rem;
+            width: 80%;
+            font-size: 2rem;
           }
           img {
             width: 50px;
