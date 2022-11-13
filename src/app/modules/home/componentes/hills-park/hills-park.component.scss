@@ -81,21 +81,25 @@
       }
     }
   }
-  .resumen__imagen {
+  .descripcion__imagen {
     width: 40vw;
-    margin-left: 50px;
-    margin-right: 3vw;
-    .resumen__imagen-marco {
-      width: 40vw;
-      height: 40vw;
-      border: 1px solid black;
-      position: absolute;
-    }
-    img {
-      width: 40vw;
+    height: 40vw;
+    background: url(../../../../../assets/img/proyectos/hills_uno.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    .escuadra {
+      width: 11vw;
       position: relative;
-      transform: translate(3vw, 3vw);
-      z-index: 2;
+      top: 34vw;
+      left: 27vw;
+    }
+    .puntos {
+      width: 10vw;
+      position: relative;
+      top: 35vw;
+      left: -4vw;
     }
   }
 }
@@ -116,7 +120,7 @@
       .descripcion__imagen {
         width: 40vw;
         height: 40vw;
-        background: url(../../../../../assets/img/proyectos/raya_descripcion.png);
+        background: url(../../../../../assets/img/proyectos/hills_dos.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;

@@ -83,19 +83,23 @@
   }
   .resumen__imagen {
     width: 40vw;
-    margin-left: 50px;
-    margin-right: 3vw;
-    .resumen__imagen-marco {
-      width: 40vw;
-      height: 40vw;
-      border: 1px solid black;
-      position: absolute;
-    }
-    img {
-      width: 40vw;
+    height: 40vw;
+    background: url(../../../../../assets/img/proyectos/urbana_uno.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    .escuadra {
+      width: 11vw;
       position: relative;
-      transform: translate(3vw, 3vw);
-      z-index: 2;
+      top: 34vw;
+      left: 27vw;
+    }
+    .puntos {
+      width: 10vw;
+      position: relative;
+      top: 35vw;
+      left: -4vw;
     }
   }
 }
@@ -116,7 +120,7 @@
       .descripcion__imagen {
         width: 40vw;
         height: 40vw;
-        background: url(../../../../../assets/img/proyectos/raya_descripcion.png);
+        background: url(../../../../../assets/img/proyectos/urbana_dos.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -247,9 +251,23 @@
   }
 }
 .ubicacion {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: $crema;
+  overflow: hidden;
+
   img {
-    width: 100%;
+    width: auto;
+    height: 80vh;
     position: relative;
+    &.ubicacion__columna {
+      height: 200vh;
+    }
+    &.left {
+      transform: scaleX(-1);
+    }
   }
 }
 
@@ -330,7 +348,7 @@
           height: 80vw;
           margin-right: 0px;
           position: relative;
-          top: 30vw;
+          top: 70vw;
           .escuadra {
             width: 22vw;
             position: relative;
@@ -376,6 +394,17 @@
         button {
           margin: 25px 0;
         }
+      }
+    }
+  }
+  .ubicacion {
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+
+      &.ubicacion__columna {
+        display: none;
       }
     }
   }

@@ -6,6 +6,8 @@ import { RayaComponent } from './modules/home/componentes/raya/raya.component';
 import { UrbanaComponent } from './modules/home/componentes/urbana/urbana.component';
 import { OraniaComponent } from './modules/home/componentes/orania/orania.component';
 import { HillsParkComponent } from './modules/home/componentes/hills-park/hills-park.component';
+import { CoveComponent } from './modules/home/componentes/cove/cove.component';
+import { GolfComponent } from './modules/home/componentes/golf/golf.component';
 import { PorqueEmaarComponent } from './modules/home/porque-emaar/porque-emaar.component';
 
 const routes: Routes = [
@@ -16,6 +18,8 @@ const routes: Routes = [
   { path: 'urbana', component: UrbanaComponent},
   { path: 'orania', component: OraniaComponent },
   { path: 'hillsPark', component: HillsParkComponent },
+  { path: 'cove', component: CoveComponent },
+  { path: 'golf', component: GolfComponent },
   { path: 'emaar', component: PorqueEmaarComponent }
 ];
 

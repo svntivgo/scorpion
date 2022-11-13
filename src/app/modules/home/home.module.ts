@@ -15,6 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BotonesComponent } from './components/botones/botones.component';
 import { PorqueEmaarComponent } from './porque-emaar/porque-emaar.component';
 import { EmaarVentajasComponent } from './componentes/emaar-ventajas/emaar-ventajas.component';
+import { CoveComponent } from './componentes/cove/cove.component';
+import { GolfComponent } from './componentes/golf/golf.component';
 
 
 
@@ -35,6 +37,8 @@ import { EmaarVentajasComponent } from './componentes/emaar-ventajas/emaar-venta
     BotonesComponent,
     PorqueEmaarComponent,
     EmaarVentajasComponent,
+    CoveComponent,
+    GolfComponent,
   ],
   imports: [
     CommonModule
