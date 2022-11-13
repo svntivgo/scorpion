@@ -137,9 +137,13 @@
       }
       &.urbana,
       &.orania,
-      &.hills {
+      &.hills,
+      &.raya {
         padding: 150px 0;
         background: white;
+      }
+      &.raya.cove {
+        background: transparent;
       }
 
       &.urbana,
@@ -154,6 +158,18 @@
           height: 40vw;
           position: absolute;
           z-index: 2;
+          &.cove {
+            background: url(../../../../../assets/img/resumen-productos/cove.png);
+            background-position: right;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+          &.golf {
+            background: url(../../../../../assets/img/resumen-productos/golf.png);
+            background-position: right;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
           &.raya {
             background: url(../../../../../assets/img/resumen-productos/img1.png);
             background-position: right;
